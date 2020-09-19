@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<ExecutionGuid>18ED907B361543CCAD3C7EDCE1CA96E2</ExecutionGuid>
+		<CrashGUID>UE4CC-Linux-0251509D30AD4A1E85167AD0BCAA813F_0002</CrashGUID>
+		<IsEnsure>false</IsEnsure>
+		<IsAssert>false</IsAssert>
+		<CrashType>Crash</CrashType>
+		<ErrorMessage>Caught signal</ErrorMessage>
+		<CrashReporterMessage />
+		<ProcessId>24780</ProcessId>
+		<SecondsSinceStart>254</SecondsSinceStart>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>true</IsSourceDistribution>
+		<GameName>UE4-Blocks</GameName>
+		<ExecutableName>UE4Editor</ExecutableName>
+		<BuildConfiguration>Development</BuildConfiguration>
+		<GameSessionID />
+		<Symbols>**UE4*Release-4.25-CL-0-Linux-Development</Symbols>
+		<PlatformName>Linux</PlatformName>
+		<PlatformNameIni>Linux</PlatformNameIni>
+		<EngineMode>Editor</EngineMode>
+		<EngineModeEx>Dirty</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>4.25.1-0+++UE4+Release-4.25</EngineVersion>
+		<CommandLine>CommandLineRemoved</CommandLine>
+		<LanguageLCID>0</LanguageLCID>
+		<AppDefaultLocale>en_US</AppDefaultLocale>
+		<BuildVersion>++UE4+Release-4.25-CL-0</BuildVersion>
+		<IsUE4Release>false</IsUE4Release>
+		<IsRequestingExit>false</IsRequestingExit>
+		<UserName />
+		<BaseDir>/home/jimzers/Documents/UnrealEngine/Engine/Binaries/Linux/</BaseDir>
+		<RootDir>/home/jimzers/Documents/UnrealEngine/</RootDir>
+		<MachineId>B72E424E376147FC9D78F51C22395ED9-000003E8</MachineId>
+		<LoginId>b72e424e376147fc9d78f51c22395ed9-000003e8</LoginId>
+		<EpicAccountId />
+		<SourceContext />
+		<UserDescription />
+		<UserActivityHint>Layout=&quot;LevelEditorViewport&quot; Label=&quot;Viewport 1&quot; Content=SViewpo</UserActivityHint>
+		<CrashDumpMode>0</CrashDumpMode>
+		<GameStateName />
+		<Misc.NumberOfCores>6</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>12</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>AuthenticAMD</Misc.CPUVendor>
+		<Misc.CPUBrand>AMD Ryzen 5 3600 6-Core Processor</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>GenericGPUBrand</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>GenericOSVersionLabel</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor>GenericOSSubVersionLabel</Misc.OSVersionMinor>
+		<MemoryStats.TotalPhysical>16710717440</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>34359734272</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>3081302016</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>28838457344</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>1474990080</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>1484427264</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>5481570304</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>5481635840</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<NumMinidumpFramesToIgnore>0</NumMinidumpFramesToIgnore>
+		<CallStack>libpthread.so.0!pthread_mutex_lock()
+libUE4Editor-AirSim.so!clmdep_asio::detail::posix_mutex::lock() [/home/jimzers/Documents/airsim/external/rpclib/rpclib-2.2.1/dependencies/include/asio/detail/posix_mutex.hpp:51]
+libUE4Editor-AirSim.so!clmdep_asio::detail::strand_service::do_post(clmdep_asio::detail::strand_service::strand_impl*&amp;, clmdep_asio::detail::task_io_service_operation*, bool) [/home/jimzers/Documents/airsim/external/rpclib/rpclib-2.2.1/dependencies/include/asio/detail/impl/strand_service.ipp:129]
+libUE4Editor-AirSim.so!void clmdep_asio::detail::strand_service::post&lt;rpc::detail::server_session::do_read()::$_1::operator()(std::__1::error_code, unsigned long) const::&apos;lambda&apos;()::operator()() const::&apos;lambda&apos;()&gt;(clmdep_asio::detail::strand_service::strand_impl*&amp;, rpc::detail::server_session::do_read()::$_1::operator()(std::__1::error_code, unsigned long) const::&apos;lambda&apos;()::operator()() const::&apos;lambda&apos;()&amp;) [/home/jimzers/Documents/airsim/external/rpclib/rpclib-2.2.1/dependencies/include/asio/detail/impl/strand_service.hpp:109]
+libUE4Editor-AirSim.so!clmdep_asio::async_result&lt;clmdep_asio::handler_type&lt;rpc::detail::server_session::do_read()::$_1::operator()(std::__1::error_code, unsigned long) const::&apos;lambda&apos;()::operator()() const::&apos;lambda&apos;(), void ()&gt;::type&gt;::type clmdep_asio::io_service::strand::post&lt;rpc::detail::server_session::do_read()::$_1::operator()(std::__1::error_code, unsigned long) const::&apos;lambda&apos;()::operator()() const::&apos;lambda&apos;()&gt;(rpc::detail::server_session::do_read()::$_1::operator()(std::__1::error_code, unsigned long) const::&apos;lambda&apos;()::operator()() const::&apos;lambda&apos;()&amp;&amp;) [/home/jimzers/Documents/airsim/external/rpclib/rpclib-2.2.1/dependencies/include/asio/strand.hpp:190]
+libUE4Editor-AirSim.so!rpc::detail::server_session::do_read()::$_1::operator()(std::__1::error_code, unsigned long) const::&apos;lambda&apos;()::operator()() const [/home/jimzers/Documents/airsim/external/rpclib/rpclib-2.2.1/lib/rpc/detail/server_session.cc:98]
+libUE4Editor-AirSim.so!void clmdep_asio::clmdep_asio_handler_invoke&lt;rpc::detail::server_session::do_read()::$_1::operator()(std::__1::error_code, unsigned long) const::&apos;lambda&apos;()&gt;(rpc::detail::server_session::do_read()::$_1::operator()(std::__1::error_code, unsigned long) const::&apos;lambda&apos;()&amp;, ...) [/home/jimzers/Documents/airsim/external/rpclib/rpclib-2.2.1/dependencies/include/asio/handler_invoke_hook.hpp:68]
+libUE4Editor-AirSim.so!void clmdep_asio_handler_invoke_helpers::invoke&lt;rpc::detail::server_session::do_read()::$_1::operator()(std::__1::error_code, unsigned long) const::&apos;lambda&apos;(), rpc::detail::server_session::do_read()::$_1::operator()(std::__1::error_code, unsigned long) const::&apos;lambda&apos;()&gt;(rpc::detail::server_session::do_read()::$_1::operator()(std::__1::error_code, unsigned long) const::&apos;lambda&apos;()&amp;, rpc::detail::server_session::do_read()::$_1::operator()(std::__1::error_code, unsigned long) const::&apos;lambda&apos;()&amp;) [/home/jimzers/Documents/airsim/external/rpclib/rpclib-2.2.1/dependencies/include/asio/detail/handler_invoke_helpers.hpp:37]
+libUE4Editor-AirSim.so!clmdep_asio::detail::completion_handler&lt;rpc::detail::server_session::do_read()::$_1::operator()(std::__1::error_code, unsigned long) const::&apos;lambda&apos;()&gt;::do_complete(clmdep_asio::detail::task_io_service*, clmdep_asio::detail::task_io_service_operation*, std::__1::error_code const&amp;, unsigned long) [/home/jimzers/Documents/airsim/external/rpclib/rpclib-2.2.1/dependencies/include/asio/detail/completion_handler.hpp:67]
+libUE4Editor-AirSim.so!clmdep_asio::detail::task_io_service_operation::complete(clmdep_asio::detail::task_io_service&amp;, std::__1::error_code const&amp;, unsigned long) [/home/jimzers/Documents/airsim/external/rpclib/rpclib-2.2.1/dependencies/include/asio/detail/task_io_service_operation.hpp:37]
+libUE4Editor-AirSim.so!clmdep_asio::detail::task_io_service::do_run_one(clmdep_asio::detail::scoped_lock&lt;clmdep_asio::detail::posix_mutex&gt;&amp;, clmdep_asio::detail::task_io_service_thread_info&amp;, std::__1::error_code const&amp;) [/home/jimzers/Documents/airsim/external/rpclib/rpclib-2.2.1/dependencies/include/asio/detail/impl/task_io_service.ipp:371]
+libUE4Editor-AirSim.so!clmdep_asio::detail::task_io_service::run(std::__1::error_code&amp;) [/home/jimzers/Documents/airsim/external/rpclib/rpclib-2.2.1/dependencies/include/asio/detail/impl/task_io_service.ipp:148]
+libUE4Editor-AirSim.so!clmdep_asio::io_service::run() [/home/jimzers/Documents/airsim/external/rpclib/rpclib-2.2.1/dependencies/include/asio/impl/io_service.ipp:58]
+libUE4Editor-AirSim.so!rpc::server::async_run(unsigned long)::$_0::operator()() const [/home/jimzers/Documents/airsim/external/rpclib/rpclib-2.2.1/lib/rpc/server.cc:122]
+libUE4Editor-AirSim.so!decltype(std::__1::forward&lt;rpc::server::async_run(unsigned long)::$_0&amp;&gt;(fp)(std::__1::forward&lt;&gt;(fp0))) std::__1::__invoke&lt;rpc::server::async_run(unsigned long)::$_0&amp;&gt;(rpc::server::async_run(unsigned long)::$_0&amp;&amp;&amp;) [/usr/lib/llvm-8/bin/../include/c++/v1/type_traits:4353]
+libUE4Editor-AirSim.so!void std::__1::__invoke_void_return_wrapper&lt;void&gt;::__call&lt;rpc::server::async_run(unsigned long)::$_0&amp;&gt;(rpc::server::async_run(unsigned long)::$_0&amp;&amp;&amp;) [/usr/lib/llvm-8/bin/../include/c++/v1/__functional_base:349]
+libUE4Editor-AirSim.so!std::__1::__function::__alloc_func&lt;rpc::server::async_run(unsigned long)::$_0, std::__1::allocator&lt;rpc::server::async_run(unsigned long)::$_0&gt;, void ()&gt;::operator()() [/usr/lib/llvm-8/bin/../include/c++/v1/functional:1527]
+libUE4Editor-AirSim.so!std::__1::__function::__func&lt;rpc::server::async_run(unsigned long)::$_0, std::__1::allocator&lt;rpc::server::async_run(unsigned long)::$_0&gt;, void ()&gt;::operator()() [/usr/lib/llvm-8/bin/../include/c++/v1/functional:1651]
+libUE4Editor-AirSim.so!std::__1::__function::__value_func&lt;void ()&gt;::operator()() const [/usr/lib/llvm-8/bin/../include/c++/v1/functional:1799]
+libUE4Editor-AirSim.so!std::__1::function&lt;void ()&gt;::operator()() const [/usr/lib/llvm-8/bin/../include/c++/v1/functional:2347]
+libUE4Editor-AirSim.so!decltype(std::__1::forward&lt;std::__1::function&lt;void ()&gt; &gt;(fp)(std::__1::forward&lt;&gt;(fp0))) std::__1::__invoke&lt;std::__1::function&lt;void ()&gt; &gt;(std::__1::function&lt;void ()&gt;&amp;&amp;) [/usr/lib/llvm-8/bin/../include/c++/v1/type_traits:4353]
+libUE4Editor-AirSim.so!void std::__1::__thread_execute&lt;std::__1::unique_ptr&lt;std::__1::__thread_struct, std::__1::default_delete&lt;std::__1::__thread_struct&gt; &gt;, std::__1::function&lt;void ()&gt; &gt;(std::__1::tuple&lt;std::__1::unique_ptr&lt;std::__1::__thread_struct, std::__1::default_delete&lt;std::__1::__thread_struct&gt; &gt;, std::__1::function&lt;void ()&gt; &gt;&amp;, std::__1::__tuple_indices&lt;&gt;) [/usr/lib/llvm-8/bin/../include/c++/v1/thread:342]
+libUE4Editor-AirSim.so!void* std::__1::__thread_proxy&lt;std::__1::tuple&lt;std::__1::unique_ptr&lt;std::__1::__thread_struct, std::__1::default_delete&lt;std::__1::__thread_struct&gt; &gt;, std::__1::function&lt;void ()&gt; &gt; &gt;(void*) [/usr/lib/llvm-8/bin/../include/c++/v1/thread:352]
+libpthread.so.0!UnknownFunction(0x76da)
+libc.so.6!clone(+0x3e)
+</CallStack>
+		<PCallStack>libpthread.so 0x000000007d5e6000 + 9fa0 libUE4Editor-AirSim 0x00000000e04ea000 + 47b555 libUE4Editor-AirSim 0x00000000e04ea000 + 49bd66 libUE4Editor-AirSim 0x00000000e04ea000 + 4ac42b libUE4Editor-AirSim 0x00000000e04ea000 + 4ac1e7 libUE4Editor-AirSim 0x00000000e04ea000 + 4ac04a libUE4Editor-AirSim 0x00000000e04ea000 + 4abdb5 libUE4Editor-AirSim 0x00000000e04ea000 + 4abd02 libUE4Editor-AirSim 0x00000000e04ea000 + 4abbed libUE4Editor-AirSim 0x00000000e04ea000 + 47e607 libUE4Editor-AirSim 0x00000000e04ea000 + 486e84 libUE4Editor-AirSim 0x00000000e04ea000 + 486a79 libUE4Editor-AirSim 0x00000000e04ea000 + 479501 libUE4Editor-AirSim 0x00000000e04ea000 + 478c7a libUE4Editor-AirSim 0x00000000e04ea000 + 478bfd libUE4Editor-AirSim 0x00000000e04ea000 + 478bad libUE4Editor-AirSim 0x00000000e04ea000 + 478b7d libUE4Editor-AirSim 0x00000000e04ea000 + 477cc9 libUE4Editor-AirSim 0x00000000e04ea000 + 489245 libUE4Editor-AirSim 0x00000000e04ea000 + 489205 libUE4Editor-AirSim 0x00000000e04ea000 + 4891ad libUE4Editor-AirSim 0x00000000e04ea000 + 489155 libUE4Editor-AirSim 0x00000000e04ea000 + 488ce6 libpthread.so 0x000000007d5e6000 + 76db libc.so 0x0000000073743000 + 121a3f</PCallStack>
+		<PCallStackHash>6E462D6D16A6F584F5D96116FF6916DA6925BA55</PCallStackHash>
+		<TimeOfCrash>637306946400310000</TimeOfCrash>
+		<bAllowToBeContacted>0</bAllowToBeContacted>
+		<PlatformFullName>Linux [GenericOSVersionLabel GenericOSSubVersionLabel 64b]</PlatformFullName>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+	</PlatformProperties>
+	<EngineData>
+		<RHI.RHIName>Vulkan</RHI.RHIName>
+		<RHI.AdapterName>GeForce RTX 2070 SUPER</RHI.AdapterName>
+		<RHI.UserDriverVersion>440.100</RHI.UserDriverVersion>
+		<RHI.FeatureLevel>SM5</RHI.FeatureLevel>
+	</EngineData>
+	<GameData />
+	<EnabledPlugins>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Paper2D&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Netcode Unit Test&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Netcode Unit Test - Unreal Engine 4&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Magic Leap&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Magic Leap Media Player&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;MLSDK&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Magic Leap Light Estimatation&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Magic Leap Passable World&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Wizard for mobile packaging scenarios&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Material Analyzer&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Facial Animation Bulk Importer&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Asset Manager Editor&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;CryptoKeys&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Curve Editor Tools&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;SpeedTree Importer&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Data Validation&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Editor Scripting Utilities&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Plugin Browser&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;GeometryMode&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;GameplayTagsEditor&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Mac Graphics Switching&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Niagara&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;UDP Messaging&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;TCP Messaging&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;KDevelop Integration&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 2, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Rider Integration&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 2, &quot;VersionName&quot;: &quot;2.0&quot;, &quot;FriendlyName&quot;: &quot;CLion Integration&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Actor Layer Utilities&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 14, &quot;VersionName&quot;: &quot;1.4&quot;, &quot;FriendlyName&quot;: &quot;Git&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Perforce&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;UObject Example Plugin&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Visual Studio Integration&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;CodeLite Integration&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Subversion&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;XCode Integration&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Animation Sharing&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 40, &quot;VersionName&quot;: &quot;1.4.6&quot;, &quot;FriendlyName&quot;: &quot;Plastic SCM&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Linux Compiler-only Integration&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Visual Studio Code Integration&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;Camera Shake Previewer&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Launcher Chunk Installer&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Mesh Painting&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;Chaos Cloth&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;Chaos Solver&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;ChaosEditor&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;CharacterAI&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;Planar Cut&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Skeletal Mesh Simplifier (Early Access)&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;Chaos Niagara&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;Proxy LOD Plugin (Experimental)&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;Chaos Cloth Editor&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1&quot;, &quot;FriendlyName&quot;: &quot;BackChannel&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;Automation Utilities&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;Alembic Importer (Experimental)&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;Geometry Processing&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Platform Cryptography Plugin&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;Geometry&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;Geometry Cache (Experimental)&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Linux Device Profile Selector&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Editable Mesh&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.1&quot;, &quot;FriendlyName&quot;: &quot;Synthesis and DSP Effects&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;IOS Device Profile Selector&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Windows Movie Player&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Android Device Profile Selector&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Runtime PhysX Cooking&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Significance Manager&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Mobile Patching Utilities&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Mobile Location Services Blueprints Library&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Audio Capture&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Android Movie Player&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Google Cloud Messaging&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;ArchVis Character&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;GooglePAD&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;SoundFields&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Apple Image Utils&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Custom Splash Preload Screen&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Apple Movie Player&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;Android Runtime Permission&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Procedural Mesh Component&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Asset Tags&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Custom Mesh Component&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Cable Component&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;PhysX Vehicles&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Example Device Profile Selector&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Movie Player for WebM files&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Variant Manager Content&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Datasmith Content&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Movie Render Pipeline&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;Template Sequence (Experimental)&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;0.1&quot;, &quot;FriendlyName&quot;: &quot;Actor Sequence (Experimental)&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Matinee to Level Sequence&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Level Sequence Editor&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;WebM Video Player&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 2, &quot;VersionName&quot;: &quot;2.0&quot;, &quot;FriendlyName&quot;: &quot;WMF Media Player&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Image Sequence Media Player&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Media Compositing&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 2, &quot;VersionName&quot;: &quot;2.0&quot;, &quot;FriendlyName&quot;: &quot;Android Media Player&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Media Player Editor&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 2, &quot;VersionName&quot;: &quot;2.0&quot;, &quot;FriendlyName&quot;: &quot;AVF Media Player&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Online Subsystem GooglePlay&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Online Subsystem NULL&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Online Subsystem Utils&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Online Subsystem&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;Online Subsystem iOS&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;ScreenshotTools&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;LightPropagationVolume&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.0&quot;, &quot;FriendlyName&quot;: &quot;AISupport&quot; }</Plugin>
+		<Plugin>{ &quot;Version&quot;: 1, &quot;VersionName&quot;: &quot;1.3.1&quot;, &quot;FriendlyName&quot;: &quot;AirSim&quot; }</Plugin>
+	</EnabledPlugins>
+</FGenericCrashContext>

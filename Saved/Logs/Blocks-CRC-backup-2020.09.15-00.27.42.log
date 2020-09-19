@@ -1,0 +1,107 @@
+﻿Log file open, 09/14/20 17:27:26
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 4 named threads and 9 total threads with 1 sets of task threads.
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogInit: Build: ++UE4+Release-4.25-CL-0
+LogInit: Engine Version: 4.25.1-0+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-0+++UE4+Release-4.25
+LogInit: Net CL: 0
+LogInit: OS: GenericOSVersionLabel (GenericOSSubVersionLabel), CPU: AMD Ryzen 5 3600 6-Core Processor              , GPU: GenericGPUBrand
+LogInit: Compiled (64-bit): Jun 13 2020 16:08:37
+LogInit: Compiled with Clang: 9.0.1 
+LogInit: Build Configuration: Shipping
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line:  -Abslog="/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Saved/Logs/Blocks-CRC.log" "/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Saved/Crashes/crashinfo-Blocks-pid-6640-8428EA6DBA154D21A7F59F1BCD911F72/"
+LogInit: Base Directory: /home/jimzers/Documents/UnrealEngine/Engine/Binaries/Linux/
+LogInit: Allocator: binned2
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 100000 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [/home/jimzers/.config/Epic/CrashReportClient/Saved/Config/Linux/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Applying CVar settings from Section [ConsoleVariables] File [/home/jimzers/.config/Epic/CrashReportClient/Saved/Config/Linux/Engine.ini]
+[2020.09.15-00.27.26:922][  0]LogInit: Unix hardware info:
+[2020.09.15-00.27.26:922][  0]LogInit:  - we are the first instance of this executable
+[2020.09.15-00.27.26:922][  0]LogInit:  - this process' id (pid) is 8457, parent process' id (ppid) is 6640
+[2020.09.15-00.27.26:922][  0]LogInit:  - we are not running under debugger
+[2020.09.15-00.27.26:922][  0]LogInit:  - machine network name is 'sleepy-sheep'
+[2020.09.15-00.27.26:922][  0]LogInit:  - user name is 'jimzers' (jimzers)
+[2020.09.15-00.27.26:922][  0]LogInit:  - we're logged in locally
+[2020.09.15-00.27.26:922][  0]LogInit:  - we're running with rendering
+[2020.09.15-00.27.26:922][  0]LogInit:  - CPU: AuthenticAMD 'AMD Ryzen 5 3600 6-Core Processor              ' (signature: 0x870F10)
+[2020.09.15-00.27.26:922][  0]LogInit:  - Number of physical cores available for the process: 6
+[2020.09.15-00.27.26:922][  0]LogInit:  - Number of logical cores available for the process: 12
+[2020.09.15-00.27.26:922][  0]LogInit:  - Cache line size: 64
+[2020.09.15-00.27.26:922][  0]LogInit:  - Memory allocator used: binned2
+[2020.09.15-00.27.26:922][  0]LogInit:  - This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+[2020.09.15-00.27.26:922][  0]LogInit:  - This is an internal build.
+[2020.09.15-00.27.26:922][  0]LogCore: Skipped benchmarking clocks because the engine is running in a standalone program mode - CLOCK_MONOTONIC will be used.
+[2020.09.15-00.27.26:922][  0]LogInit: Unix-specific commandline switches:
+[2020.09.15-00.27.26:922][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+[2020.09.15-00.27.26:922][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
+[2020.09.15-00.27.26:922][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
+[2020.09.15-00.27.26:922][  0]LogInit:  -filemapcachesize=NUMBER - set the size for case-sensitive file mapping cache
+[2020.09.15-00.27.26:922][  0]LogInit:  -useksm - uses kernel same-page mapping (KSM) for mapped memory (OFF)
+[2020.09.15-00.27.26:922][  0]LogInit:  -ksmmergeall - marks all mmap'd memory pages suitable for KSM (OFF)
+[2020.09.15-00.27.26:922][  0]LogInit:  -preloadmodulesymbols - Loads the main module symbols file into memory (OFF)
+[2020.09.15-00.27.26:922][  0]LogInit:  -sigdfl=SIGNAL - Allows a specific signal to be set to its default handler rather then ignoring the signal
+[2020.09.15-00.27.26:922][  0]LogInit:  -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+[2020.09.15-00.27.26:922][  0]LogInit:  -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+[2020.09.15-00.27.26:922][  0]LogInit:  -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
+[2020.09.15-00.27.26:922][  0]LogInit:  - Physical RAM available (not considering process quota): 16 GB (15937 MB, 16319556 KB, 16711225344 bytes)
+[2020.09.15-00.27.26:922][  0]LogInit:  - VirtualMemoryAllocator pools will grow at scale 1.4
+[2020.09.15-00.27.26:922][  0]LogInit:  - MemoryRangeDecommit() will be a no-op (re-run with -vmapoolevict to change)
+[2020.09.15-00.27.26:933][  0]LogUObjectArray: 353 objects as part of root set at end of initial load.
+[2020.09.15-00.27.26:933][  0]LogUObjectAllocator: 60704 out of 0 bytes used by permanent object pool.
+[2020.09.15-00.27.26:933][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.09.15-00.27.26:933][  0]LogInit: Using OS detected language (en-US).
+[2020.09.15-00.27.26:933][  0]LogInit: Using OS detected locale (en-US).
+[2020.09.15-00.27.26:934][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2020.09.15-00.27.26:934][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
+[2020.09.15-00.27.26:940][  0]LogInit: Using OS detected language (en-US).
+[2020.09.15-00.27.26:940][  0]LogInit: Using OS detected locale (en-US).
+[2020.09.15-00.27.26:940][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2020.09.15-00.27.26:940][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
+[2020.09.15-00.27.26:941][  0]LogTextLocalizationManager: Compacting localization data took   0.44ms
+[2020.09.15-00.27.26:941][  0]LogPackageLocalizationCache: Processed 2 localized package path(s) for 1 prioritized culture(s) in 0.000012 seconds
+[2020.09.15-00.27.26:941][  0]CrashReportCoreLog: CrashReportClientVersion=1.0
+[2020.09.15-00.27.26:941][  0]CrashReportCoreLog: CrashReportReceiver disabled
+[2020.09.15-00.27.26:941][  0]CrashReportCoreLog: DataRouterUrl: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data
+[2020.09.15-00.27.26:942][  0]LogInit: Initializing SDL.
+[2020.09.15-00.27.27:020][  0]LogInit: Initialized SDL 2.0.10 revision: 12952 (hg-12952:bc90ce38f1e2) (compiled against 2.0.10)
+[2020.09.15-00.27.27:020][  0]LogInit: Using SDL video driver 'x11'
+[2020.09.15-00.27.27:025][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.09.15-00.27.27:025][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.09.15-00.27.27:027][  0]LogSlate: Using FreeType 2.10.0
+[2020.09.15-00.27.27:028][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.09.15-00.27.27:028][  0]LogInit: Using SDL_WINDOW_OPENGL
+[2020.09.15-00.27.27:033][  0]LogInit: FSlateOpenGLContext::Initialize - creating OpenGL 2.1 context
+[2020.09.15-00.27.27:135][  0]CrashReportCoreLog: Initial state = Unknown UploadState value
+[2020.09.15-00.27.27:135][  0]CrashReportCoreLog: Initial state = Unknown UploadState value
+[2020.09.15-00.27.27:163][  0]LogInit: FSlateOpenGLContext::Initialize - creating OpenGL 2.1 context
+[2020.09.15-00.27.27:170][  0]LogSlate: Took 0.000420 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.09.15-00.27.27:171][  0]LogSlate: Took 0.000306 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.09.15-00.27.27:174][  0]LogSlate: Took 0.000319 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.09.15-00.27.42:111][  0]LogSlate: Request Window 'Unreal Engine 4 Crash Reporter' being destroyed
+[2020.09.15-00.27.42:111][  0]LogSlate: Window 'Unreal Engine 4 Crash Reporter' being destroyed
+[2020.09.15-00.27.42:114][  0]LogCore: Engine exit requested (reason: OnRequestExit)
+[2020.09.15-00.27.42:134][  0]CrashReportCoreLog: Final state (Receiver) = Ready
+[2020.09.15-00.27.42:134][  0]CrashReportCoreLog: Final state (Receiver) = Unknown UploadState value
+[2020.09.15-00.27.42:136][  0]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.09.15-00.27.42:136][  0]LogCore: Engine exit requested (reason: CrashReportClientApp RequestExit; note: exit was already requested)
+[2020.09.15-00.27.42:136][  0]LogExit: Preparing to exit.
+[2020.09.15-00.27.42:136][  0]LogExit: Object subsystem successfully closed.
+[2020.09.15-00.27.42:138][  0]LogModuleManager: Shutting down and abandoning module ImageWrapper (10)
+[2020.09.15-00.27.42:138][  0]LogModuleManager: Shutting down and abandoning module InputCore (8)
+[2020.09.15-00.27.42:138][  0]LogModuleManager: Shutting down and abandoning module CoreUObject (6)
+[2020.09.15-00.27.42:138][  0]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.09.15-00.27.42:138][  0]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.09.15-00.27.42:138][  0]LogExit: Exiting.
+[2020.09.15-00.27.42:138][  0]LogInit: Tearing down SDL.
+[2020.09.15-00.27.42:151][  0]Log file closed, 09/14/20 17:27:42

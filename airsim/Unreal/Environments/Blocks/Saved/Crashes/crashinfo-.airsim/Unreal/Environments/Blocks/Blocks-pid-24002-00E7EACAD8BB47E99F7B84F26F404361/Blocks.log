@@ -1,0 +1,9 @@
+Project file not found: /home/jimzers/Documents/UnrealEngine/../airsim/Unreal/Environments/Blocks/Blocks/../airsim/Unreal/Environments/Blocks/Blocks.uproject
+	Attempting to find via project info helper.
+Found projects:
+Not using cached read wrapper
+Failed to open descriptor file /home/jimzers/Documents/UnrealEngine/../airsim/Unreal/Environments/Blocks/Blocks/../airsim/Unreal/Environments/Blocks/Blocks.uproject
+MessageBox: Message : Failed to open descriptor file /home/jimzers/Documents/UnrealEngine/../airsim/Unreal/Environments/Blocks/Blocks/../airsim/Unreal/Environments/Blocks/Blocks.uproject
+Message dialog closed, result: Ok, title: Message, text: Failed to open descriptor file /home/jimzers/Documents/UnrealEngine/../airsim/Unreal/Environments/Blocks/Blocks/../airsim/Unreal/Environments/Blocks/Blocks.uproject
+Could not find a valid project file, the engine will exit now.
+Engine exit requested (reason: EngineExit() was called)

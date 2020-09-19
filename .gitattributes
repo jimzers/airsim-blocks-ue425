@@ -1,0 +1,12 @@
+Content/ filter=lfs diff=lfs merge=lfs -text
+Content/AirSimAssets.umap filter=lfs diff=lfs merge=lfs -text
+Content/appear_dissapear.uasset filter=lfs diff=lfs merge=lfs -text
+Content/Developers filter=lfs diff=lfs merge=lfs -text
+Content/Geometry filter=lfs diff=lfs merge=lfs -text
+Content/Collections filter=lfs diff=lfs merge=lfs -text
+Content/Flying filter=lfs diff=lfs merge=lfs -text
+Content/FlyingCPP filter=lfs diff=lfs merge=lfs -text
+Content/moving_thing.uasset filter=lfs diff=lfs merge=lfs -text
+Content/StarterContent filter=lfs diff=lfs merge=lfs -text
+Content/** filter=lfs diff=lfs merge=lfs -text
+*.ddc filter=lfs diff=lfs merge=lfs -text

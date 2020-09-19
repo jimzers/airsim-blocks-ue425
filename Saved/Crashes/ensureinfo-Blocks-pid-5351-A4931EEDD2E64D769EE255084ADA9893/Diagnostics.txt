@@ -1,0 +1,36 @@
+Generating report for minidump
+
+Application version 4.25.1.0
+ ... built from changelist 0
+
+OS version Linux 5.4.0-42-generic (network name: sleepy-sheep)
+Running 6 x86_64 processors (12 logical cores)
+Exception was "Ensure condition failed: PlacementEditMode [File:/home/jimzers/Documents/UnrealEngine/Engine/Source/Editor/PlacementMode/Private/SPlacementModeTools.cpp] [Line: 606]"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUE4Editor-Core.so!FUnixPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) [/home/jimzers/Documents/UnrealEngine/Engine/Source/Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:693]
+libUE4Editor-Core.so!FGenericPlatformStackWalk::StackWalkAndDump(char*, unsigned long, int, void*) [/home/jimzers/Documents/UnrealEngine/Engine/Source/Runtime/Core/Private/GenericPlatform/GenericPlatformStackWalk.cpp:178]
+libUE4Editor-Core.so!FUnixCrashContext::CaptureStackTrace() [/home/jimzers/Documents/UnrealEngine/Engine/Source/Runtime/Core/Private/Unix/UnixPlatformCrashContext.cpp:305]
+libUE4Editor-Core.so!ReportEnsure(char16_t const*, int) [/home/jimzers/Documents/UnrealEngine/Engine/Source/Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:900]
+libUE4Editor-Core.so!FDebug::EnsureFailed(char const*, char const*, int, char16_t const*, int) [/home/jimzers/Documents/UnrealEngine/Engine/Source/Runtime/Core/Private/Misc/AssertionMacros.cpp:417]
+libUE4Editor-Core.so!FDebug::OptionallyLogFormattedEnsureMessageReturningFalseImpl(bool, char const*, char const*, int, char16_t const*, ...) [/home/jimzers/Documents/UnrealEngine/Engine/Source/Runtime/Core/Private/Misc/AssertionMacros.cpp:488]
+libUE4Editor-PlacementMode.so!SPlacementModeTools::OnKeyDown(FGeometry const&, FKeyEvent const&)::$_4::operator()() const [/home/jimzers/Documents/UnrealEngine/Engine/Source/Editor/PlacementMode/Private/SPlacementModeTools.cpp:606]
+libUE4Editor-PlacementMode.so!SPlacementModeTools::OnKeyDown(FGeometry const&, FKeyEvent const&) [/home/jimzers/Documents/UnrealEngine/Engine/Source/Editor/PlacementMode/Private/SPlacementModeTools.cpp:606]
+libUE4Editor-Slate.so!FSlateApplication::ProcessKeyDownEvent(FKeyEvent const&) [/home/jimzers/Documents/UnrealEngine/Engine/Source/Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:4204]
+libUE4Editor-Slate.so!FSlateApplication::OnKeyDown(int, unsigned int, bool) [/home/jimzers/Documents/UnrealEngine/Engine/Source/Runtime/Slate/Private/Framework/Application/SlateApplication.cpp:4112]
+libUE4Editor-ApplicationCore.so!FLinuxApplication::ProcessDeferredMessage(SDL_Event) [/home/jimzers/Documents/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Private/Linux/LinuxApplication.cpp:252]
+libUE4Editor-ApplicationCore.so!FLinuxPlatformApplicationMisc::PumpMessages(bool) [/home/jimzers/Documents/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Private/Linux/LinuxPlatformApplicationMisc.cpp:428]
+UE4Editor!FEngineLoop::Tick() [/home/jimzers/Documents/UnrealEngine/Engine/Source/Runtime/Launch/Private/LaunchEngineLoop.cpp:4762]
+UE4Editor!GuardedMain(char16_t const*) [/home/jimzers/Documents/UnrealEngine/Engine/Source/Runtime/Launch/Private/Launch.cpp:171]
+libUE4Editor-UnixCommonStartup.so!CommonUnixMain(int, char**, int (*)(char16_t const*), void (*)()) [/home/jimzers/Documents/UnrealEngine/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:264]
+libc.so.6!__libc_start_main(+0xe6)
+UE4Editor!_start()
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<ExecutionGuid>07FCEE10CFA24CE089D1C460ED4E6085</ExecutionGuid>
+		<CrashGUID>_0001</CrashGUID>
+		<IsEnsure>false</IsEnsure>
+		<IsAssert>true</IsAssert>
+		<CrashType>Assert</CrashType>
+		<ErrorMessage>Assertion failed: GConfig [File:/home/jimzers/Documents/UnrealEngine/Engine/Source/Runtime/Engine/Private/VT/VirtualTextureChunkDDCCache.cpp] [Line: 216]</ErrorMessage>
+		<CrashReporterMessage />
+		<ProcessId>0</ProcessId>
+		<SecondsSinceStart>0</SecondsSinceStart>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<GameName>UE4-../airsim/Unreal/Environments/Blocks/Blocks</GameName>
+		<ExecutableName />
+		<BuildConfiguration />
+		<GameSessionID />
+		<Symbols>**UE4*Release-4.25-CL-0-Linux-</Symbols>
+		<PlatformName>Linux</PlatformName>
+		<PlatformNameIni>Linux</PlatformNameIni>
+		<EngineMode />
+		<EngineModeEx />
+		<DeploymentName />
+		<EngineVersion>4.25.1-0+++UE4+Release-4.25</EngineVersion>
+		<CommandLine />
+		<LanguageLCID>0</LanguageLCID>
+		<AppDefaultLocale />
+		<BuildVersion>++UE4+Release-4.25-CL-0</BuildVersion>
+		<IsUE4Release>false</IsUE4Release>
+		<IsRequestingExit>false</IsRequestingExit>
+		<UserName />
+		<BaseDir />
+		<RootDir />
+		<MachineId />
+		<LoginId>b72e424e376147fc9d78f51c22395ed9-000003e8</LoginId>
+		<EpicAccountId />
+		<SourceContext />
+		<UserDescription />
+		<UserActivityHint />
+		<CrashDumpMode>0</CrashDumpMode>
+		<GameStateName />
+		<Misc.NumberOfCores>0</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>0</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor />
+		<Misc.CPUBrand />
+		<Misc.PrimaryGPUBrand />
+		<Misc.OSVersionMajor />
+		<Misc.OSVersionMinor />
+		<MemoryStats.TotalPhysical>16711438336</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>34359734272</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>10187780096</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>26509119488</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>202735616</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>207458304</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>935542784</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>944242688</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<NumMinidumpFramesToIgnore>0</NumMinidumpFramesToIgnore>
+		<CallStack />
+		<PCallStack>libUE4Editor-Core 0x000000009904d000 + 57f68e libUE4Editor-Core 0x000000009904d000 + 7b4fd7 libUE4Editor-Core 0x000000009904d000 + 730b06 libUE4Editor-Core 0x000000009904d000 + 7309ab libUE4Editor-Engine 0x00000000945ef000 + 32a4609 libUE4Editor-Engine 0x00000000945ef000 + 32a49bc libUE4Editor-Engine 0x00000000945ef000 + 22e06fb libUE4Editor-Engine 0x00000000945ef000 + 22de8f5 UE4Editor 0x0000000000200000 + 6ee5b UE4Editor 0x0000000000200000 + 6f5c9 libUE4Editor-UnixCommonStartup 0x000000009a483000 + 3b5b libc.so 0x00000000900e8000 + 21b97 UE4Editor 0x0000000000200000 + 5d029</PCallStack>
+		<PCallStackHash>C6BA2004BEDB689A238EE4A31DA4E1706247BFAB</PCallStackHash>
+		<TimeOfCrash>637302808312430000</TimeOfCrash>
+		<bAllowToBeContacted>0</bAllowToBeContacted>
+		<PlatformFullName />
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+	</PlatformProperties>
+	<EngineData />
+	<GameData />
+</FGenericCrashContext>

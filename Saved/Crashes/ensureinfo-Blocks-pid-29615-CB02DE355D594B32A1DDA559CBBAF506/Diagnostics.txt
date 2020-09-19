@@ -1,0 +1,40 @@
+Generating report for minidump
+
+Application version 4.25.1.0
+ ... built from changelist 0
+
+OS version Linux 5.3.0-62-generic (network name: sleepy-sheep)
+Running 6 x86_64 processors (12 logical cores)
+Exception was "Ensure condition failed: Surface.StorageFormat == VK_FORMAT_R16G16B16A16_SFLOAT [File:/home/jimzers/Documents/UnrealEngine/Engine/Source/Runtime/VulkanRHI/Private/VulkanRenderTarget.cpp] [Line: 973]"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libUE4Editor-Core.so!FUnixPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) [/home/jimzers/Documents/UnrealEngine/Engine/Source/Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:693]
+libUE4Editor-Core.so!FGenericPlatformStackWalk::StackWalkAndDump(char*, unsigned long, int, void*) [/home/jimzers/Documents/UnrealEngine/Engine/Source/Runtime/Core/Private/GenericPlatform/GenericPlatformStackWalk.cpp:178]
+libUE4Editor-Core.so!FUnixCrashContext::CaptureStackTrace() [/home/jimzers/Documents/UnrealEngine/Engine/Source/Runtime/Core/Private/Unix/UnixPlatformCrashContext.cpp:305]
+libUE4Editor-Core.so!ReportEnsure(char16_t const*, int) [/home/jimzers/Documents/UnrealEngine/Engine/Source/Runtime/Core/Private/Unix/UnixPlatformStackWalk.cpp:900]
+libUE4Editor-Core.so!FDebug::EnsureFailed(char const*, char const*, int, char16_t const*, int) [/home/jimzers/Documents/UnrealEngine/Engine/Source/Runtime/Core/Private/Misc/AssertionMacros.cpp:417]
+libUE4Editor-Core.so!FDebug::OptionallyLogFormattedEnsureMessageReturningFalseImpl(bool, char const*, char const*, int, char16_t const*, ...) [/home/jimzers/Documents/UnrealEngine/Engine/Source/Runtime/Core/Private/Misc/AssertionMacros.cpp:488]
+libUE4Editor-VulkanRHI.so!FVulkanDynamicRHI::RHIReadSurfaceFloatData(FRHITexture*, FIntRect, TArray<FFloat16Color, TSizedDefaultAllocator<32> >&, ECubeFace, int, int)::$_106::operator()(FVulkanDevice*, FVulkanCmdBuffer*, FVulkanSurface const&, unsigned int, unsigned int, FIntRect, TArray<FFloat16Color, TSizedDefaultAllocator<32> >&) const::'lambda'()::operator()() const [/home/jimzers/Documents/UnrealEngine/Engine/Source/Runtime/VulkanRHI/Private/VulkanRenderTarget.cpp:973]
+libUE4Editor-VulkanRHI.so!FVulkanDynamicRHI::RHIReadSurfaceFloatData(FRHITexture*, FIntRect, TArray<FFloat16Color, TSizedDefaultAllocator<32> >&, ECubeFace, int, int)::$_106::operator()(FVulkanDevice*, FVulkanCmdBuffer*, FVulkanSurface const&, unsigned int, unsigned int, FIntRect, TArray<FFloat16Color, TSizedDefaultAllocator<32> >&) const [/home/jimzers/Documents/UnrealEngine/Engine/Source/Runtime/VulkanRHI/Private/VulkanRenderTarget.cpp:973]
+libUE4Editor-VulkanRHI.so!FVulkanDynamicRHI::RHIReadSurfaceFloatData(FRHITexture*, FIntRect, TArray<FFloat16Color, TSizedDefaultAllocator<32> >&, ECubeFace, int, int) [/home/jimzers/Documents/UnrealEngine/Engine/Source/Runtime/VulkanRHI/Private/VulkanRenderTarget.cpp:1084]
+libUE4Editor-RHI.so!FDynamicRHI::RHIReadSurfaceFloatData_RenderThread(FRHICommandListImmediate&, FRHITexture*, FIntRect, TArray<FFloat16Color, TSizedDefaultAllocator<32> >&, ECubeFace, int, int) [/home/jimzers/Documents/UnrealEngine/Engine/Source/Runtime/RHI/Private/RHICommandList.cpp:2601]
+libUE4Editor-AirSim.so!RenderRequest::ExecuteTask() [/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Plugins/AirSim/Source/RenderRequest.cpp:165]
+libUE4Editor-AirSim.so!TEnqueueUniqueRenderCommandType<RenderRequest::getScreenshot(std::__1::shared_ptr<RenderRequest::RenderParams>*, std::__1::vector<std::__1::shared_ptr<RenderRequest::RenderResult>, std::__1::allocator<std::__1::shared_ptr<RenderRequest::RenderResult> > >&, unsigned int, bool)::$_101::operator()() const::'lambda'()::operator()() const::SceneDrawCompletionName, RenderRequest::getScreenshot(std::__1::shared_ptr<RenderRequest::RenderParams>*, std::__1::vector<std::__1::shared_ptr<RenderRequest::RenderResult>, std::__1::allocator<std::__1::shared_ptr<RenderRequest::RenderResult> > >&, unsigned int, bool)::$_101::operator()() const::'lambda'()::operator()() const::'lambda'(FRHICommandListImmediate&)>::DoTask(ENamedThreads::Type, TRefCountPtr<FGraphEvent> const&) [/home/jimzers/Documents/UnrealEngine/Engine/Source/Runtime/RenderCore/Public/RenderingThread.h:195]
+libUE4Editor-AirSim.so!TGraphTask<TEnqueueUniqueRenderCommandType<RenderRequest::getScreenshot(std::__1::shared_ptr<RenderRequest::RenderParams>*, std::__1::vector<std::__1::shared_ptr<RenderRequest::RenderResult>, std::__1::allocator<std::__1::shared_ptr<RenderRequest::RenderResult> > >&, unsigned int, bool)::$_101::operator()() const::'lambda'()::operator()() const::SceneDrawCompletionName, RenderRequest::getScreenshot(std::__1::shared_ptr<RenderRequest::RenderParams>*, std::__1::vector<std::__1::shared_ptr<RenderRequest::RenderResult>, std::__1::allocator<std::__1::shared_ptr<RenderRequest::RenderResult> > >&, unsigned int, bool)::$_101::operator()() const::'lambda'()::operator()() const::'lambda'(FRHICommandListImmediate&)> >::ExecuteTask(TArray<FBaseGraphTask*, TSizedDefaultAllocator<32> >&, ENamedThreads::Type) [/home/jimzers/Documents/UnrealEngine/Engine/Source/Runtime/Core/Public/Async/TaskGraphInterfaces.h:849]
+libUE4Editor-Core.so!FNamedTaskThread::ProcessTasksNamedThread(int, bool) [/home/jimzers/Documents/UnrealEngine/Engine/Source/Runtime/Core/Private/Async/TaskGraph.cpp:692]
+libUE4Editor-Core.so!FNamedTaskThread::ProcessTasksUntilQuit(int) [/home/jimzers/Documents/UnrealEngine/Engine/Source/Runtime/Core/Private/Async/TaskGraph.cpp:586]
+libUE4Editor-RenderCore.so!RenderingThreadMain(FEvent*) [/home/jimzers/Documents/UnrealEngine/Engine/Source/Runtime/RenderCore/Private/RenderingThread.cpp:340]
+libUE4Editor-RenderCore.so!FRenderingThread::Run() [/home/jimzers/Documents/UnrealEngine/Engine/Source/Runtime/RenderCore/Private/RenderingThread.cpp:490]
+libUE4Editor-Core.so!FRunnableThreadPThread::Run() [/home/jimzers/Documents/UnrealEngine/Engine/Source/Runtime/Core/Private/HAL/PThreadRunnableThread.cpp:25]
+libUE4Editor-Core.so!FRunnableThreadPThread::_ThreadProc(void*) [/home/jimzers/Documents/UnrealEngine/Engine/Source/Runtime/Core/Private/HAL/PThreadRunnableThread.h:182]
+libpthread.so.0!UnknownFunction(0x76da)
+libc.so.6!clone(+0x3e)
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!

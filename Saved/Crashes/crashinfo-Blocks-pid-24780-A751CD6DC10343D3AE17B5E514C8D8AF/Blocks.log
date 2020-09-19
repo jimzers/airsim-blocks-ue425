@@ -1,0 +1,933 @@
+﻿Log file open, 07/18/20 11:39:46
+LogInit: Display: Running engine for game: Blocks
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.086341
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin AirSim
+LogInit: Using libcurl 7.65.3-DEV
+LogInit:  - built for x86_64-unknown-linux-gnu
+LogInit:  - supports SSL with OpenSSL/1.1.1c
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_TLSAUTH_SRP
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-0
+LogInit: Engine Version: 4.25.1-0+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-0+++UE4+Release-4.25
+LogInit: Net CL: 0
+LogInit: OS: GenericOSVersionLabel (GenericOSSubVersionLabel), CPU: AMD Ryzen 5 3600 6-Core Processor              , GPU: GenericGPUBrand
+LogInit: Compiled (64-bit): Jun 13 2020 16:17:16
+LogInit: Compiled with Clang: 9.0.1 
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: /home/jimzers/Documents/UnrealEngine/Engine/Binaries/Linux/
+LogInit: Allocator: binned2
+LogInit: Installed Engine Build: 0
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Saved/Config/Linux/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.07.18-18.39.49:032][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.07.18-18.39.49:032][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.07.18-18.39.49:032][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Saved/Config/Linux/Engine.ini]
+[2020.07.18-18.39.49:032][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.07.18-18.39.49:032][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Saved/Config/Linux/Engine.ini]
+[2020.07.18-18.39.49:032][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Saved/Config/Linux/Engine.ini]
+[2020.07.18-18.39.49:032][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.07.18-18.39.49:032][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.07.18-18.39.49:032][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.07.18-18.39.49:032][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.07.18-18.39.49:032][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.07.18-18.39.49:032][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.07.18-18.39.49:032][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.07.18-18.39.49:032][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.07.18-18.39.49:032][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.07.18-18.39.49:032][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.07.18-18.39.49:032][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.07.18-18.39.49:032][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.07.18-18.39.49:032][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.07.18-18.39.49:032][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.07.18-18.39.49:032][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Saved/Config/Linux/Engine.ini]
+[2020.07.18-18.39.49:032][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.07.18-18.39.49:032][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.07.18-18.39.49:032][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.07.18-18.39.49:032][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.07.18-18.39.49:032][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.07.18-18.39.49:032][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.07.18-18.39.49:032][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.07.18-18.39.49:032][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.07.18-18.39.49:032][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.07.18-18.39.49:032][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.07.18-18.39.49:032][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.07.18-18.39.49:032][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.07.18-18.39.49:032][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.07.18-18.39.49:032][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Saved/Config/Linux/Engine.ini]
+[2020.07.18-18.39.49:032][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Saved/Config/Linux/Engine.ini]
+[2020.07.18-18.39.49:032][  0]LogInit: Initializing SDL.
+[2020.07.18-18.39.49:163][  0]LogInit: Initialized SDL 2.0.10 revision: 12952 (hg-12952:bc90ce38f1e2) (compiled against 2.0.10)
+[2020.07.18-18.39.49:163][  0]LogInit: Using SDL video driver 'x11'
+[2020.07.18-18.39.49:166][  0]LogInit: Display metrics:
+[2020.07.18-18.39.49:166][  0]LogInit:   PrimaryDisplayWidth: 1920
+[2020.07.18-18.39.49:166][  0]LogInit:   PrimaryDisplayHeight: 1080
+[2020.07.18-18.39.49:166][  0]LogInit:   PrimaryDisplayWorkAreaRect:
+[2020.07.18-18.39.49:166][  0]LogInit:     Left=1920, Top=27, Right=3840, Bottom=1080
+[2020.07.18-18.39.49:166][  0]LogInit:   VirtualDisplayRect:
+[2020.07.18-18.39.49:166][  0]LogInit:     Left=0, Top=0, Right=3840, Bottom=1080
+[2020.07.18-18.39.49:166][  0]LogInit:   TitleSafePaddingSize: X=0.000 Y=0.000 Z=0.000 W=0.000
+[2020.07.18-18.39.49:166][  0]LogInit:   ActionSafePaddingSize: X=0.000 Y=0.000 Z=0.000 W=0.000
+[2020.07.18-18.39.49:166][  0]LogInit:   Number of monitors: 2
+[2020.07.18-18.39.49:166][  0]LogInit:     Monitor 0
+[2020.07.18-18.39.49:166][  0]LogInit:       Name: VG248 24"
+[2020.07.18-18.39.49:166][  0]LogInit:       ID: display0
+[2020.07.18-18.39.49:166][  0]LogInit:       NativeWidth: 1920
+[2020.07.18-18.39.49:166][  0]LogInit:       NativeHeight: 1080
+[2020.07.18-18.39.49:166][  0]LogInit:       bIsPrimary: true
+[2020.07.18-18.39.49:166][  0]LogInit:     Monitor 1
+[2020.07.18-18.39.49:166][  0]LogInit:       Name: S2419HGF 24"
+[2020.07.18-18.39.49:166][  0]LogInit:       ID: display1
+[2020.07.18-18.39.49:166][  0]LogInit:       NativeWidth: 1920
+[2020.07.18-18.39.49:166][  0]LogInit:       NativeHeight: 1080
+[2020.07.18-18.39.49:166][  0]LogInit:       bIsPrimary: false
+[2020.07.18-18.39.49:166][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Saved/Config/Linux/Scalability.ini]
+[2020.07.18-18.39.49:166][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.07.18-18.39.49:166][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.07.18-18.39.49:166][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Saved/Config/Linux/Scalability.ini]
+[2020.07.18-18.39.49:166][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.07.18-18.39.49:166][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Saved/Config/Linux/Scalability.ini]
+[2020.07.18-18.39.49:166][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.07.18-18.39.49:166][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.07.18-18.39.49:166][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.07.18-18.39.49:166][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.07.18-18.39.49:166][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.07.18-18.39.49:166][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.07.18-18.39.49:166][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.07.18-18.39.49:166][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.07.18-18.39.49:166][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.07.18-18.39.49:166][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.07.18-18.39.49:166][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.07.18-18.39.49:166][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.07.18-18.39.49:166][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.07.18-18.39.49:166][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.07.18-18.39.49:166][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.07.18-18.39.49:166][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.07.18-18.39.49:166][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.07.18-18.39.49:166][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.07.18-18.39.49:166][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Saved/Config/Linux/Scalability.ini]
+[2020.07.18-18.39.49:166][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.07.18-18.39.49:166][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.07.18-18.39.49:166][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.07.18-18.39.49:166][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.07.18-18.39.49:166][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.07.18-18.39.49:166][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.07.18-18.39.49:166][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.07.18-18.39.49:166][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.07.18-18.39.49:166][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.07.18-18.39.49:166][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.07.18-18.39.49:166][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.07.18-18.39.49:166][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.07.18-18.39.49:166][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.07.18-18.39.49:166][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.07.18-18.39.49:166][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.07.18-18.39.49:166][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.07.18-18.39.49:166][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Saved/Config/Linux/Scalability.ini]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Saved/Config/Linux/Scalability.ini]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Saved/Config/Linux/Scalability.ini]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Saved/Config/Linux/Scalability.ini]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.07.18-18.39.49:167][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.07.18-18.39.49:167][  0]LogLinux: Selected Device Profile: [Linux]
+[2020.07.18-18.39.49:167][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Linux]
+[2020.07.18-18.39.49:167][  0]LogHAL: Display: Platform has ~ 4 GB [16710717440 / 4294967296 / 16], which maps to Smallest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.07.18-18.39.49:167][  0]LogInit: Going up to parent DeviceProfile []
+[2020.07.18-18.39.49:167][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Saved/Config/Linux/Scalability.ini]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Saved/Config/Linux/Scalability.ini]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Saved/Config/Linux/Scalability.ini]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Saved/Config/Linux/Scalability.ini]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Saved/Config/Linux/Scalability.ini]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Saved/Config/Linux/Scalability.ini]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Saved/Config/Linux/Scalability.ini]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Saved/Config/Linux/Scalability.ini]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.07.18-18.39.49:168][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.07.18-18.39.49:169][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.07.18-18.39.49:169][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.07.18-18.39.49:169][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.07.18-18.39.49:169][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Saved/Config/Linux/Engine.ini]
+[2020.07.18-18.39.49:169][  0]LogConfig: Setting CVar [[g.TimeoutForBlockOnRenderFence:60000]]
+[2020.07.18-18.39.49:169][  0]LogInit: Unix hardware info:
+[2020.07.18-18.39.49:169][  0]LogInit:  - we are the first instance of this executable
+[2020.07.18-18.39.49:169][  0]LogInit:  - this process' id (pid) is 24780, parent process' id (ppid) is 2165
+[2020.07.18-18.39.49:169][  0]LogInit:  - we are not running under debugger
+[2020.07.18-18.39.49:169][  0]LogInit:  - machine network name is 'sleepy-sheep'
+[2020.07.18-18.39.49:169][  0]LogInit:  - user name is 'jimzers' (jimzers)
+[2020.07.18-18.39.49:169][  0]LogInit:  - we're logged in locally
+[2020.07.18-18.39.49:169][  0]LogInit:  - we're running with rendering
+[2020.07.18-18.39.49:169][  0]LogInit:  - CPU: AuthenticAMD 'AMD Ryzen 5 3600 6-Core Processor              ' (signature: 0x870F10)
+[2020.07.18-18.39.49:169][  0]LogInit:  - Number of physical cores available for the process: 6
+[2020.07.18-18.39.49:169][  0]LogInit:  - Number of logical cores available for the process: 12
+[2020.07.18-18.39.49:169][  0]LogInit:  - Cache line size: 64
+[2020.07.18-18.39.49:169][  0]LogInit:  - Memory allocator used: binned2
+[2020.07.18-18.39.49:169][  0]LogInit:  - This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+[2020.07.18-18.39.49:169][  0]LogInit:  - This is an internal build.
+[2020.07.18-18.39.49:169][  0]LogCore: Benchmarking clocks:
+[2020.07.18-18.39.49:169][  0]LogCore:  - CLOCK_MONOTONIC (id=1) can sustain 42380138 (42380K, 42M) calls per second without zero deltas.
+[2020.07.18-18.39.49:169][  0]LogCore:  - CLOCK_MONOTONIC_RAW (id=4) can sustain 43008054 (43008K, 43M) calls per second without zero deltas.
+[2020.07.18-18.39.49:169][  0]LogCore:  - CLOCK_MONOTONIC_COARSE (id=6) can sustain 194603381 (194603K, 195M) calls per second with 99.999866% zero deltas.
+[2020.07.18-18.39.49:169][  0]LogCore: Selected clock_id 4 (CLOCK_MONOTONIC_RAW) since it is the fastest support clock without zero deltas.
+[2020.07.18-18.39.49:169][  0]LogInit: Unix-specific commandline switches:
+[2020.07.18-18.39.49:169][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+[2020.07.18-18.39.49:169][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
+[2020.07.18-18.39.49:169][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
+[2020.07.18-18.39.49:169][  0]LogInit:  -filemapcachesize=NUMBER - set the size for case-sensitive file mapping cache
+[2020.07.18-18.39.49:169][  0]LogInit:  -useksm - uses kernel same-page mapping (KSM) for mapped memory (OFF)
+[2020.07.18-18.39.49:169][  0]LogInit:  -ksmmergeall - marks all mmap'd memory pages suitable for KSM (OFF)
+[2020.07.18-18.39.49:169][  0]LogInit:  -preloadmodulesymbols - Loads the main module symbols file into memory (OFF)
+[2020.07.18-18.39.49:169][  0]LogInit:  -sigdfl=SIGNAL - Allows a specific signal to be set to its default handler rather then ignoring the signal
+[2020.07.18-18.39.49:169][  0]LogInit:  -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+[2020.07.18-18.39.49:169][  0]LogInit:  -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+[2020.07.18-18.39.49:169][  0]LogInit:  -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
+[2020.07.18-18.39.49:169][  0]LogInit:  - Physical RAM available (not considering process quota): 16 GB (15936 MB, 16319060 KB, 16710717440 bytes)
+[2020.07.18-18.39.49:169][  0]LogInit:  - VirtualMemoryAllocator pools will grow at scale 1.4
+[2020.07.18-18.39.49:169][  0]LogInit:  - MemoryRangeDecommit() will be a no-op (re-run with -vmapoolevict to change)
+[2020.07.18-18.39.49:473][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.07.18-18.39.49:522][  0]LogInit: Using OS detected language (en-US).
+[2020.07.18-18.39.49:522][  0]LogInit: Using OS detected locale (en-US).
+[2020.07.18-18.39.49:523][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.07.18-18.39.49:721][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.07.18-18.39.49:721][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.07.18-18.39.50:494][  0]LogInit: Using SDL_WINDOW_VULKAN
+[2020.07.18-18.39.50:507][  0]LogVulkanRHI: Display: - Found instance layer VK_LAYER_LUNARG_standard_validation
+[2020.07.18-18.39.50:507][  0]LogVulkanRHI: Display: - Found instance layer VK_LAYER_NV_optimus
+[2020.07.18-18.39.50:507][  0]LogVulkanRHI: Display: - Found instance extension VK_EXT_acquire_xlib_display
+[2020.07.18-18.39.50:507][  0]LogVulkanRHI: Display: - Found instance extension VK_EXT_debug_report
+[2020.07.18-18.39.50:507][  0]LogVulkanRHI: Display: - Found instance extension VK_EXT_debug_utils
+[2020.07.18-18.39.50:507][  0]LogVulkanRHI: Display: - Found instance extension VK_EXT_direct_mode_display
+[2020.07.18-18.39.50:507][  0]LogVulkanRHI: Display: - Found instance extension VK_EXT_display_surface_counter
+[2020.07.18-18.39.50:507][  0]LogVulkanRHI: Display: - Found instance extension VK_KHR_device_group_creation
+[2020.07.18-18.39.50:507][  0]LogVulkanRHI: Display: - Found instance extension VK_KHR_display
+[2020.07.18-18.39.50:507][  0]LogVulkanRHI: Display: - Found instance extension VK_KHR_external_fence_capabilities
+[2020.07.18-18.39.50:507][  0]LogVulkanRHI: Display: - Found instance extension VK_KHR_external_memory_capabilities
+[2020.07.18-18.39.50:507][  0]LogVulkanRHI: Display: - Found instance extension VK_KHR_external_semaphore_capabilities
+[2020.07.18-18.39.50:507][  0]LogVulkanRHI: Display: - Found instance extension VK_KHR_get_physical_device_properties2
+[2020.07.18-18.39.50:507][  0]LogVulkanRHI: Display: - Found instance extension VK_KHR_get_surface_capabilities2
+[2020.07.18-18.39.50:507][  0]LogVulkanRHI: Display: - Found instance extension VK_KHR_surface
+[2020.07.18-18.39.50:507][  0]LogVulkanRHI: Display: - Found instance extension VK_KHR_xcb_surface
+[2020.07.18-18.39.50:507][  0]LogVulkanRHI: Display: - Found instance extension VK_KHR_xlib_surface
+[2020.07.18-18.39.50:507][  0]LogVulkanRHI: Display: Not using instance layers
+[2020.07.18-18.39.50:507][  0]LogVulkanRHI: Display: Using instance extensions
+[2020.07.18-18.39.50:507][  0]LogVulkanRHI: Display: * VK_KHR_surface
+[2020.07.18-18.39.50:507][  0]LogVulkanRHI: Display: * VK_KHR_xlib_surface
+[2020.07.18-18.39.50:507][  0]LogVulkanRHI: Display: * VK_KHR_external_memory_capabilities
+[2020.07.18-18.39.50:507][  0]LogVulkanRHI: Display: * VK_KHR_get_physical_device_properties2
+[2020.07.18-18.39.50:511][  0]LogVulkanRHI: Display: Found 1 device(s)
+[2020.07.18-18.39.50:511][  0]LogVulkanRHI: Display: Device 0: GeForce RTX 2070 SUPER
+[2020.07.18-18.39.50:511][  0]LogVulkanRHI: Display: - API 1.1.119(0x401077) Driver 0x6e190000 VendorId 0x10de
+[2020.07.18-18.39.50:511][  0]LogVulkanRHI: Display: - DeviceID 0x1ec7 Type Discrete GPU
+[2020.07.18-18.39.50:511][  0]LogVulkanRHI: Display: - Max Descriptor Sets Bound 32 Timestamps 1
+[2020.07.18-18.39.50:511][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_blend_operation_advanced
+[2020.07.18-18.39.50:511][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_buffer_device_address
+[2020.07.18-18.39.50:511][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_calibrated_timestamps
+[2020.07.18-18.39.50:511][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_conditional_rendering
+[2020.07.18-18.39.50:511][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_conservative_rasterization
+[2020.07.18-18.39.50:511][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_depth_clip_enable
+[2020.07.18-18.39.50:511][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_depth_range_unrestricted
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_descriptor_indexing
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_discard_rectangles
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_display_control
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_fragment_shader_interlock
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_global_priority
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_host_query_reset
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_index_type_uint8
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_inline_uniform_block
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_line_rasterization
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_memory_budget
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_pci_bus_info
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_pipeline_creation_feedback
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_post_depth_coverage
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_sample_locations
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_sampler_filter_minmax
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_scalar_block_layout
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_separate_stencil_usage
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_shader_demote_to_helper_invocation
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_shader_subgroup_ballot
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_shader_subgroup_vote
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_shader_viewport_index_layer
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_subgroup_size_control
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_texel_buffer_alignment
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_transform_feedback
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_vertex_attribute_divisor
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_EXT_ycbcr_image_arrays
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_16bit_storage
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_8bit_storage
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_bind_memory2
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_create_renderpass2
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_dedicated_allocation
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_depth_stencil_resolve
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_descriptor_update_template
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_device_group
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_draw_indirect_count
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_driver_properties
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_external_fence
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_external_fence_fd
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_external_memory
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_external_memory_fd
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_external_semaphore
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_external_semaphore_fd
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_get_memory_requirements2
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_image_format_list
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_imageless_framebuffer
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_maintenance1
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_maintenance2
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_maintenance3
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_multiview
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_pipeline_executable_properties
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_push_descriptor
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_relaxed_block_layout
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_sampler_mirror_clamp_to_edge
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_sampler_ycbcr_conversion
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_shader_atomic_int64
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_shader_draw_parameters
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_shader_float16_int8
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_shader_float_controls
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_storage_buffer_storage_class
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_swapchain
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_swapchain_mutable_format
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_timeline_semaphore
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_uniform_buffer_standard_layout
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_variable_pointers
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_KHR_vulkan_memory_model
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_NV_clip_space_w_scaling
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_NV_compute_shader_derivatives
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_NV_cooperative_matrix
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_NV_corner_sampled_image
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_NV_coverage_reduction_mode
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_NV_dedicated_allocation
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_NV_dedicated_allocation_image_aliasing
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_NV_device_diagnostic_checkpoints
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_NV_fill_rectangle
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_NV_fragment_coverage_to_color
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_NV_fragment_shader_barycentric
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_NV_framebuffer_mixed_samples
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_NV_geometry_shader_passthrough
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_NV_mesh_shader
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_NV_ray_tracing
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_NV_representative_fragment_test
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_NV_sample_mask_override_coverage
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_NV_scissor_exclusive
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_NV_shader_image_footprint
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_NV_shader_sm_builtins
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_NV_shader_subgroup_partitioned
+[2020.07.18-18.39.50:512][  0]LogVulkanRHI: Display: -    Found device extension VK_NV_shading_rate_image
+[2020.07.18-18.39.50:513][  0]LogVulkanRHI: Display: -    Found device extension VK_NV_viewport_array2
+[2020.07.18-18.39.50:513][  0]LogVulkanRHI: Display: -    Found device extension VK_NV_viewport_swizzle
+[2020.07.18-18.39.50:513][  0]LogVulkanRHI: Display: -    Found device extension VK_NVX_binary_import
+[2020.07.18-18.39.50:513][  0]LogVulkanRHI: Display: -    Found device extension VK_NVX_device_generated_commands
+[2020.07.18-18.39.50:513][  0]LogVulkanRHI: Display: -    Found device extension VK_NVX_image_view_handle
+[2020.07.18-18.39.50:513][  0]LogVulkanRHI: Display: -    Found device extension VK_NVX_multiview_per_view_attributes
+[2020.07.18-18.39.50:513][  0]LogVulkanRHI: Display: Using Device 0: Geometry 1 Tessellation 1
+[2020.07.18-18.39.50:513][  0]LogVulkanRHI: Display: Found 3 Queue Families
+[2020.07.18-18.39.50:513][  0]LogVulkanRHI: Display: Initializing Queue Family 0: 16 queues Gfx Compute Xfer Sparse
+[2020.07.18-18.39.50:513][  0]LogVulkanRHI: Display: Initializing Queue Family 1: 2 queues Xfer Sparse
+[2020.07.18-18.39.50:513][  0]LogVulkanRHI: Display: Skipping unnecessary Queue Family 2: 8 queues Compute Xfer Sparse
+[2020.07.18-18.39.50:777][  0]LogVulkanRHI: Display: Using device layers
+[2020.07.18-18.39.50:777][  0]LogVulkanRHI: Display: Using device extensions
+[2020.07.18-18.39.50:777][  0]LogVulkanRHI: Display: * VK_KHR_swapchain
+[2020.07.18-18.39.50:777][  0]LogVulkanRHI: Display: * VK_KHR_maintenance1
+[2020.07.18-18.39.50:777][  0]LogVulkanRHI: Display: * VK_KHR_maintenance2
+[2020.07.18-18.39.50:777][  0]LogVulkanRHI: Display: 2 Device Memory Heaps; Max memory allocations -1
+[2020.07.18-18.39.50:777][  0]LogVulkanRHI: Display: 0: Flags 0x1 Size 8589934592 (8192.00 MB) GPU
+[2020.07.18-18.39.50:777][  0]LogVulkanRHI: Display: 1: Flags 0x0 Size 12533038080 (11952.44 MB) 
+[2020.07.18-18.39.50:777][  0]LogVulkanRHI: Display: 11 Device Memory Types (Not unified)
+[2020.07.18-18.39.50:777][  0]LogVulkanRHI: Display: 0: Flags 0x0 Heap 1 
+[2020.07.18-18.39.50:777][  0]LogVulkanRHI: Display: 1: Flags 0x0 Heap 1 
+[2020.07.18-18.39.50:777][  0]LogVulkanRHI: Display: 2: Flags 0x0 Heap 1 
+[2020.07.18-18.39.50:777][  0]LogVulkanRHI: Display: 3: Flags 0x0 Heap 1 
+[2020.07.18-18.39.50:777][  0]LogVulkanRHI: Display: 4: Flags 0x0 Heap 1 
+[2020.07.18-18.39.50:777][  0]LogVulkanRHI: Display: 5: Flags 0x0 Heap 1 
+[2020.07.18-18.39.50:777][  0]LogVulkanRHI: Display: 6: Flags 0x0 Heap 1 
+[2020.07.18-18.39.50:777][  0]LogVulkanRHI: Display: 7: Flags 0x1 Heap 0  Local
+[2020.07.18-18.39.50:777][  0]LogVulkanRHI: Display: 8: Flags 0x1 Heap 0  Local
+[2020.07.18-18.39.50:777][  0]LogVulkanRHI: Display: 9: Flags 0x6 Heap 1  HostVisible HostCoherent
+[2020.07.18-18.39.50:777][  0]LogVulkanRHI: Display: 10: Flags 0xe Heap 1  HostVisible HostCoherent HostCached
+[2020.07.18-18.39.50:817][  0]LogVulkanRHI: Display: FVulkanPipelineStateCacheManager: Binary pipeline cache '../../../../airsim/Unreal/Environments/Blocks 4.25/Saved/VulkanPSO.cache.10de.1ec7' not found.
+[2020.07.18-18.39.50:823][  0]LogVulkanRHI: Display: Nvidia User Driver Version = 440.100
+[2020.07.18-18.39.50:828][  0]LogRHI: Texture pool is 5447 MB (70% of 7782 MB)
+[2020.07.18-18.39.51:780][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.07.18-18.39.52:028][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.07.18-18.39.52:277][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.07.18-18.39.52:522][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.07.18-18.39.52:766][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.07.18-18.39.53:012][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.07.18-18.39.53:256][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.07.18-18.39.53:507][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.07.18-18.39.53:507][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.07.18-18.39.53:507][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.07.18-18.39.53:507][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.07.18-18.39.53:507][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.07.18-18.39.53:507][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.07.18-18.39.53:507][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.07.18-18.39.53:507][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.07.18-18.39.53:507][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.07.18-18.39.53:507][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.07.18-18.39.53:510][  0]LogTargetPlatformManager: Display: Building Assets For Linux
+[2020.07.18-18.39.54:106][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../airsim/Unreal/Environments/Blocks 4.25/Intermediate/Shaders/WorkingDirectory/24780/).
+[2020.07.18-18.39.54:106][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../airsim/Unreal/Environments/Blocks 4.25/Intermediate/Shaders/tmp/BA33C35A01D847A39DCE2660EC442C32/'.
+[2020.07.18-18.39.54:106][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.07.18-18.39.55:104][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.07.18-18.39.55:213][  0]LogDerivedDataCache: Loaded boot cache 0.11s 133MB ../../../../airsim/Unreal/Environments/Blocks 4.25/DerivedDataCache/Boot.ddc.
+[2020.07.18-18.39.55:213][  0]LogDerivedDataCache: Display: Loaded Boot cache: ../../../../airsim/Unreal/Environments/Blocks 4.25/DerivedDataCache/Boot.ddc
+[2020.07.18-18.39.55:214][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../airsim/Unreal/Environments/Blocks 4.25/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.07.18-18.39.55:214][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.07.18-18.39.55:214][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.07.18-18.39.55:214][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2020.07.18-18.39.55:214][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2020.07.18-18.39.55:214][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.07.18-18.39.55:214][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.07.18-18.39.55:249][  0]LogSlate: Using FreeType 2.10.0
+[2020.07.18-18.39.55:250][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.07.18-18.39.55:279][  0]LogAssetRegistry: FAssetRegistry took 0.0015 seconds to start up
+[2020.07.18-18.39.55:479][  0]LogLinux: Selected Device Profile: [Linux]
+[2020.07.18-18.39.56:765][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.07.18-18.39.56:765][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.07.18-18.39.56:765][  0]LogMeshReduction: No automatic mesh merging module available
+[2020.07.18-18.39.56:765][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.07.18-18.39.56:765][  0]LogMeshMerging: No automatic mesh merging module available
+[2020.07.18-18.39.56:765][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.07.18-18.39.57:062][  0]LogNetVersion: Blocks 1.0.0, NetCL: 0, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3710503244)
+[2020.07.18-18.39.58:139][  0]LogAISub: UAISubsystem AISubsystem (0x7f47e80e2f80), frame # 0
+[2020.07.18-18.39.58:139][  0]LogAISub: UAISubsystem AIPerceptionSystem (0x7f47e7b3ed40), frame # 0
+[2020.07.18-18.39.58:141][  0]LogAISub: UAISubsystem EnvQueryManager (0x7f47efbfc800), frame # 0
+[2020.07.18-18.39.58:160][  0]LogPackageLocalizationCache: Processed 18 localized package path(s) for 1 prioritized culture(s) in 0.011502 seconds
+[2020.07.18-18.39.58:165][  0]LogUObjectArray: 15697 objects as part of root set at end of initial load.
+[2020.07.18-18.39.58:165][  0]LogUObjectAllocator: 3915160 out of 0 bytes used by permanent object pool.
+[2020.07.18-18.39.58:165][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.07.18-18.39.58:421][  0]LogHAL: Linux SourceCodeAccessSettings: NullSourceCodeAccessor
+[2020.07.18-18.40.06:069][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.07.18-18.40.06:070][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.07.18-18.40.08:231][  0]LogTemp: StartupModule: AirSim plugin
+[2020.07.18-18.40.11:998][  0]SourceControl: Source control is disabled
+[2020.07.18-18.40.11:998][  0]SourceControl: Source control is disabled
+[2020.07.18-18.40.12:209][  0]SourceControl: Source control is disabled
+[2020.07.18-18.40.12:424][  0]SourceControl: Source control is disabled
+[2020.07.18-18.40.12:959][  0]SourceControl: Source control is disabled
+[2020.07.18-18.40.18:908][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.07.18-18.40.18:908][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.07.18-18.40.19:934][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.07.18-18.40.23:975][  0]LogEngine: Initializing Engine...
+[2020.07.18-18.40.23:976][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.07.18-18.40.24:131][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.07.18-18.40.25:030][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.07.18-18.40.25:030][  0]LogAISub: UAISubsystem EnvQueryManager (0x7f47e95eee00), frame # 0
+[2020.07.18-18.40.25:030][  0]LogAISub: UAISubsystem AIPerceptionSystem (0x7f47eb3ea9c0), frame # 0
+[2020.07.18-18.40.25:034][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.18-18.40.25:034][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.18-18.40.25:034][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.18-18.40.25:034][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.18-18.40.25:034][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.18-18.40.25:034][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.18-18.40.25:034][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.18-18.40.25:034][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.18-18.40.25:034][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.18-18.40.25:034][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.18-18.40.25:045][  0]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2020.07.18-18.40.27:978][  0]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2020.07.18-18.40.27:980][  0]LogAudioMixer: Display: Using Audio Device Default Audio Device
+[2020.07.18-18.40.27:980][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.18-18.40.27:985][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.18-18.40.27:985][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.18-18.40.27:987][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.18-18.40.27:987][  0]LogInit: FAudioDevice initialized.
+[2020.07.18-18.40.27:987][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.07.18-18.40.28:058][  0]LogDerivedDataCache: Saved boot cache 0.07s 133MB ../../../../airsim/Unreal/Environments/Blocks 4.25/DerivedDataCache/Boot.ddc.
+[2020.07.18-18.40.28:154][  0]LogInit: Texture streaming: Enabled
+[2020.07.18-18.40.28:158][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.07.18-18.40.28:158][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.07.18-18.40.28:159][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.07.18-18.40.29:119][  0]LogInit: Transaction tracking system initialized
+[2020.07.18-18.40.30:666][  0]BlueprintLog: New page: Editor Load
+[2020.07.18-18.40.34:731][  0]LocalizationService: Localization service is disabled
+[2020.07.18-18.40.38:142][  0]LogFileCache: Scanning file cache for directory '/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Content/' took 0.00s
+[2020.07.18-18.40.38:142][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.07.18-18.40.38:142][  0]LogCook: Display: Mobile HDR setting 1
+[2020.07.18-18.40.45:334][  0]SourceControl: Source control is disabled
+[2020.07.18-18.40.45:334][  0]LogUnrealEdMisc: Loading editor; pre map load, took 61.085
+[2020.07.18-18.40.45:335][  0]Cmd: MAP LOAD FILE="../../../../airsim/Unreal/Environments/Blocks 4.25/Content/FlyingCPP/Maps/FlyingExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.07.18-18.40.45:337][  0]LightingResults: New page: Lighting Build
+[2020.07.18-18.40.45:499][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.07.18-18.40.45:499][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.18-18.40.45:499][  0]MapCheck: New page: Map Check
+[2020.07.18-18.40.45:499][  0]LightingResults: New page: Lighting Build
+[2020.07.18-18.40.45:510][  0]LogAISub: ~UAISubsystem EnvQueryManager (0x7f47e95eee00), frame # 0
+[2020.07.18-18.40.45:510][  0]LogAISub: ~UAISubsystem AIPerceptionSystem (0x7f47eb3ea9c0), frame # 0
+[2020.07.18-18.40.45:512][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2020.07.18-18.40.45:686][  0]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2020.07.18-18.40.45:686][  0]LogAISub: UAISubsystem EnvQueryManager (0x7f47896f3a00), frame # 0
+[2020.07.18-18.40.45:687][  0]LogAISub: UAISubsystem AIPerceptionSystem (0x7f47e92cb780), frame # 0
+[2020.07.18-18.40.45:694][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.07.18-18.40.45:711][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2020.07.18-18.40.45:715][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.07.18-18.40.45:715][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.101ms to complete.
+[2020.07.18-18.40.45:715][  0]LogFileHelpers: Loading map 'FlyingExampleMap' took 0.380
+[2020.07.18-18.40.45:717][  0]LogUnrealEdMisc: Total Editor Startup Time, took 61.467
+[2020.07.18-18.40.45:793][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.18-18.40.45:798][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.18-18.40.45:803][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.18-18.40.45:807][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.18-18.40.45:812][  0]LogCollectionManager: Loaded 0 collections in 0.002087 seconds
+[2020.07.18-18.40.45:825][  0]LogFileCache: Scanning file cache for directory '/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Saved/Collections/' took 0.00s
+[2020.07.18-18.40.45:825][  0]LogFileCache: Scanning file cache for directory '/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Content/Developers/jimzers/Collections/' took 0.00s
+[2020.07.18-18.40.45:825][  0]LogFileCache: Scanning file cache for directory '/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Content/Collections/' took 0.00s
+[2020.07.18-18.40.45:825][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 3386 classes and 770 folders.
+[2020.07.18-18.40.46:228][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.07.18-18.40.46:317][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.07.18-18.40.46:494][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 3 folders.
+[2020.07.18-18.40.46:576][  0]LogVulkanRHI: Display: Requested PixelFormat 18 not supported by this swapchain! Falling back to supported swapchain format...
+[2020.07.18-18.40.46:576][  0]LogVulkanRHI: Display: Queue Family 0: Supports Present
+[2020.07.18-18.40.46:576][  0]LogVulkanRHI: Display: Queue Family 0: Supports Present
+[2020.07.18-18.40.46:576][  0]LogVulkanRHI: Display: Found 3 Surface present modes:
+[2020.07.18-18.40.46:576][  0]LogVulkanRHI: Display: - VK_PRESENT_MODE_FIFO_KHR (2)
+[2020.07.18-18.40.46:576][  0]LogVulkanRHI: Display: - VK_PRESENT_MODE_FIFO_RELAXED_KHR (3)
+[2020.07.18-18.40.46:576][  0]LogVulkanRHI: Display: - VK_PRESENT_MODE_IMMEDIATE_KHR (0)
+[2020.07.18-18.40.46:576][  0]LogVulkanRHI: Display: Selected VkPresentModeKHR mode 2
+[2020.07.18-18.40.46:576][  0]LogVulkanRHI: Creating new VK swapchain with present mode 2, format 44, color space 0, num images 3
+[2020.07.18-18.40.46:820][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.07.18-18.40.46:820][  0]LogLoad: (Engine Initialization) Total time: 62.57 seconds
+[2020.07.18-18.40.46:820][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.07.18-18.40.46:841][  0]LogSlate: Took 0.003322 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.07.18-18.40.46:844][  0]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.07.18-18.40.46:850][  0]LogSlate: Took 0.000589 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.07.18-18.40.46:924][  0]LogAssetRegistry: Asset discovery search completed in 51.6443 seconds
+[2020.07.18-18.40.46:927][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000001 seconds (updated 0 objects)
+[2020.07.18-18.40.46:928][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.07.18-18.40.46:942][  0]LogRenderer: Reallocating scene render targets to support 1264x552 Format 10 NumSamples 1 (Frame:1).
+[2020.07.18-18.40.46:942][  0]LogSlate: Took 0.000371 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.07.18-18.41.30:234][583]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.18-18.41.30:241][583]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.18-18.41.30:244][583]PIE: New page: PIE session: FlyingExampleMap (Jul 18, 2020, 4:41:30 AM)
+[2020.07.18-18.41.30:244][583]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.07.18-18.41.30:244][583]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.07.18-18.41.30:244][583]LogPlayLevel: Creating play world package: /Game/FlyingCPP/Maps/UEDPIE_0_FlyingExampleMap
+[2020.07.18-18.41.30:270][583]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025522s)
+[2020.07.18-18.41.30:270][583]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2020.07.18-18.41.30:271][583]LogAISub: UAISubsystem EnvQueryManager (0x7f478d59c200), frame # 2583
+[2020.07.18-18.41.30:271][583]LogAISub: UAISubsystem AIPerceptionSystem (0x7f47eec28bc0), frame # 2583
+[2020.07.18-18.41.30:271][583]LogPlayLevel: PIE: World Init took: (0.001371s)
+[2020.07.18-18.41.30:271][583]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingCPP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingCPP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.027080s)
+[2020.07.18-18.41.30:278][583]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2020.07.18-18.41.30:282][583]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.18-18.41.30:282][583]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.18-18.41.30:282][583]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.18-18.41.30:282][583]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.18-18.41.30:282][583]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.18-18.41.30:282][583]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.18-18.41.30:282][583]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.18-18.41.30:282][583]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.18-18.41.30:283][583]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.18-18.41.30:283][583]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.18-18.41.30:283][583]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2020.07.18-18.41.33:318][583]LogAudioMixerSDL: Opening default audio device (device index -1)
+[2020.07.18-18.41.33:320][583]LogAudioMixer: Display: Using Audio Device Default Audio Device
+[2020.07.18-18.41.33:320][583]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.18-18.41.33:320][583]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.18-18.41.33:320][583]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.18-18.41.33:322][583]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.18-18.41.33:322][583]LogInit: FAudioDevice initialized.
+[2020.07.18-18.41.33:330][583]LogLoad: Game class is 'AirSimGameMode'
+[2020.07.18-18.41.33:336][583]LogWorld: Bringing World /Game/FlyingCPP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2020.07.18-11.41.33
+[2020.07.18-18.41.33:336][583]LogWorld: Bringing up level for play took: 0.004795
+[2020.07.18-18.41.33:336][583]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2020.07.18-18.41.33:710][583]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2020.07.18-18.41.36:308][583]LogSlate: Window 'Choose Vehicle' being destroyed
+[2020.07.18-18.41.36:329][583]Message dialog closed, result: No, title: Choose Vehicle, text: Would you like to use car simulation? Choose no to use quadrotor simulation.
+[2020.07.18-18.41.36:329][583]Cmd: r.CustomDepth 3
+[2020.07.18-18.41.36:332][583]r.CustomDepth = "3"
+[2020.07.18-18.41.36:333][583]LogActor: Warning: BP_CameraDirector_C /Game/FlyingCPP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap:PersistentLevel.CameraDirector has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.07.18-18.41.36:483][583]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/AirSim/Weather/WeatherFX/WeatherActor.WeatherActor_C:ExecuteUbergraph_WeatherActor'!
+[2020.07.18-18.41.36:563][583]LogTemp: SimpleFlight
+[2020.07.18-18.41.36:566][583]PIE: Server logged in
+[2020.07.18-18.41.36:567][583]PIE: Play in editor total start time 6.326 seconds.
+[2020.07.18-18.41.53:822][619]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
+[2020.07.18-18.42.06:839][398]LogCore: 0x00007f48344f7575 Dladdr: 0.035136ms Open: 0.401974ms Search: 0.951173ms
+[2020.07.18-18.42.06:839][398]LogCore: 0x00007f48344f6e7b Dladdr: 0.012944ms Open: 0.010350ms Search: 0.024886ms
+[2020.07.18-18.42.06:841][398]LogCore: 0x00007f4877999c7f Dladdr: 0.012403ms Open: 0.346039ms Search: 0.803006ms
+[2020.07.18-18.42.06:844][398]LogCore: 0x00007f47e07ae844 Dladdr: 0.080511ms Open: 0.110056ms Search: 0.956423ms
+[2020.07.18-18.42.06:844][398]LogCore: 0x00007f47e07e0e06 Dladdr: 0.063269ms Open: 0.013706ms Search: 0.702707ms
+[2020.07.18-18.42.06:844][398]LogCore: 0x00007f47e07e10fb Dladdr: 0.047869ms Open: 0.007104ms Search: 0.187010ms
+[2020.07.18-18.42.06:844][398]LogCore: 0x00007f487cbf1bb7 Dladdr: 0.083436ms Open: 0.122900ms Search: 0.988113ms
+[2020.07.18-18.42.06:844][398]LogCore: 0x00007f487cbf0a62 Dladdr: 0.080641ms Open: 0.005641ms Search: 0.089077ms
+[2020.07.18-18.42.06:846][398]LogCore: 0x00007f4877b0de4e Dladdr: 0.013676ms Open: 0.091621ms Search: 0.791925ms
+[2020.07.18-18.42.06:846][398]LogCore: 0x00007f4877ba8a61 Dladdr: 0.016562ms Open: 0.005299ms Search: 0.752892ms
+[2020.07.18-18.42.06:849][398]LogCore: 0x00007f487cc9f266 Dladdr: 0.088155ms Open: 0.006572ms Search: 0.714791ms
+[2020.07.18-18.42.06:849][398]LogCore: 0x00007f487cc6af2f Dladdr: 0.085240ms Open: 0.005601ms Search: 0.446126ms
+[2020.07.18-18.42.06:849][398]LogCore: 0x00007f487d5ed6da Dladdr: 0.004699ms Open: 0.010600ms Search: 0.001082ms
+[2020.07.18-18.42.06:849][398]LogCore: 0x00007f4873864a3e Dladdr: 0.027321ms Open: 0.005140ms Search: 0.000200ms
+[2020.07.18-18.42.06:849][398]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.017 s
+[2020.07.18-18.42.06:849][398]LogOutputDevice: Error: === Handled ensure: ===
+[2020.07.18-18.42.06:849][398]LogOutputDevice: Error: 
+[2020.07.18-18.42.06:849][398]LogOutputDevice: Error: Ensure condition failed: Surface.StorageFormat == VK_FORMAT_R16G16B16A16_SFLOAT [File:/home/jimzers/Documents/UnrealEngine/Engine/Source/Runtime/VulkanRHI/Private/VulkanRenderTarget.cpp] [Line: 973]
+[2020.07.18-18.42.06:849][398]LogOutputDevice: Error: 
+[2020.07.18-18.42.06:849][398]LogOutputDevice: Error: Stack: 
+[2020.07.18-18.42.06:849][398]LogOutputDevice: Error: [Callstack] 0x00007f48344f7576 libUE4Editor-VulkanRHI.so!FVulkanDynamicRHI::RHIReadSurfaceFloatData(FRHITexture*, FIntRect, TArray<FFloat16Color, TSizedDefaultAllocator<32> >&, ECubeFace, int, int)::$_106::operator()(FVulkanDevice*, FVulkanCmdBuffer*, FVulkanSurface const&, unsigned int, unsigned int, FIntRect, TArray<FFloat16Color, TSizedDefaultAllocator<32> >&) const [/home/jimzers/Documents/UnrealEngine/Engine/Source/Runtime/VulkanRHI/Private/VulkanRenderTarget.cpp:973]
+[2020.07.18-18.42.06:849][398]LogOutputDevice: Error: [Callstack] 0x00007f48344f6e7c libUE4Editor-VulkanRHI.so!FVulkanDynamicRHI::RHIReadSurfaceFloatData(FRHITexture*, FIntRect, TArray<FFloat16Color, TSizedDefaultAllocator<32> >&, ECubeFace, int, int) [/home/jimzers/Documents/UnrealEngine/Engine/Source/Runtime/VulkanRHI/Private/VulkanRenderTarget.cpp:1084]
+[2020.07.18-18.42.06:849][398]LogOutputDevice: Error: [Callstack] 0x00007f4877999c80 libUE4Editor-RHI.so!FDynamicRHI::RHIReadSurfaceFloatData_RenderThread(FRHICommandListImmediate&, FRHITexture*, FIntRect, TArray<FFloat16Color, TSizedDefaultAllocator<32> >&, ECubeFace, int, int) [/home/jimzers/Documents/UnrealEngine/Engine/Source/Runtime/RHI/Private/RHICommandList.cpp:2601]
+[2020.07.18-18.42.06:849][398]LogOutputDevice: Error: [Callstack] 0x00007f47e07ae845 libUE4Editor-AirSim.so!RenderRequest::ExecuteTask() [/home/jimzers/Documents/airsim/Unreal/Environments/Blocks 4.25/Plugins/AirSim/Source/RenderRequest.cpp:165]
+[2020.07.18-18.42.06:849][398]LogOutputDevice: Error: [Callstack] 0x00007f47e07e0e07 libUE4Editor-AirSim.so!TEnqueueUniqueRenderCommandType<RenderRequest::getScreenshot(std::__1::shared_ptr<RenderRequest::RenderParams>*, std::__1::vector<std::__1::shared_ptr<RenderRequest::RenderResult>, std::__1::allocator<std::__1::shared_ptr<RenderRequest::RenderResult> > >&, unsigned int, bool)::$_101::operator()() const::'lambda'()::operator()() const::SceneDrawCompletionName, RenderRequest::getScreenshot(std::__1::shared_ptr<RenderRequest::RenderParams>*, std::__1::vector<std::__1::shared_ptr<RenderRequest::RenderResult>, std::__1::allocator<std::__1::shared_ptr<RenderRequest::RenderResult> > >&, unsigned int, bool)::$_101::operator()() const::'lambda'()::operator()() const::'lambda'(FRHICommandListImmediate&)>::DoTask(ENamedThreads::Type, TRefCountPtr<FGraphEvent> const&) [/home/jimzers/Documents/UnrealEngine/Engine/Source/Runtime/RenderCore/Public/RenderingThread.h:195]
+[2020.07.18-18.42.06:849][398]LogOutputDevice: Error: [Callstack] 0x00007f47e07e10fc libUE4Editor-AirSim.so!TGraphTask<TEnqueueUniqueRenderCommandType<RenderRequest::getScreenshot(std::__1::shared_ptr<RenderRequest::RenderParams>*, std::__1::vector<std::__1::shared_ptr<RenderRequest::RenderResult>, std::__1::allocator<std::__1::shared_ptr<RenderRequest::RenderResult> > >&, unsigned int, bool)::$_101::operator()() const::'lambda'()::operator()() const::SceneDrawCompletionName, RenderRequest::getScreenshot(std::__1::shared_ptr<RenderRequest::RenderParams>*, std::__1::vector<std::__1::shared_ptr<RenderRequest::RenderResult>, std::__1::allocator<std::__1::shared_ptr<RenderRequest::RenderResult> > >&, unsigned int, bool)::$_101::operator()() const::'lambda'()::operator()() const::'lambda'(FRHICommandListImmediate&)> >::ExecuteTask(TArray<FBaseGraphTask*, TSizedDefaultAllocator<32> >&, ENamedThreads::Type) [/home/jimzers/Documents/UnrealEngine/Engine/Source/Runtime/Core/Public/Async/TaskGraphInterfaces.h:849]
+[2020.07.18-18.42.06:849][398]LogOutputDevice: Error: [Callstack] 0x00007f487cbf1bb8 libUE4Editor-Core.so!FNamedTaskThread::ProcessTasksNamedThread(int, bool) [/home/jimzers/Documents/UnrealEngine/Engine/Source/Runtime/Core/Private/Async/TaskGraph.cpp:692]
+[2020.07.18-18.42.06:849][398]LogOutputDevice: Error: [Callstack] 0x00007f487cbf0a63 libUE4Editor-Core.so!FNamedTaskThread::ProcessTasksUntilQuit(int) [/home/jimzers/Documents/UnrealEngine/Engine/Source/Runtime/Core/Private/Async/TaskGraph.cpp:586]
+[2020.07.18-18.42.06:849][398]LogOutputDevice: Error: [Callstack] 0x00007f4877b0de4f libUE4Editor-RenderCore.so!RenderingThreadMain(FEvent*) [/home/jimzers/Documents/UnrealEngine/Engine/Source/Runtime/RenderCore/Private/RenderingThread.cpp:340]
+[2020.07.18-18.42.06:849][398]LogOutputDevice: Error: [Callstack] 0x00007f4877ba8a62 libUE4Editor-RenderCore.so!FRenderingThread::Run() [/home/jimzers/Documents/UnrealEngine/Engine/Source/Runtime/RenderCore/Private/RenderingThread.cpp:490]
+[2020.07.18-18.42.06:849][398]LogOutputDevice: Error: [Callstack] 0x00007f487cc9f267 libUE4Editor-Core.so!FRunnableThreadPThread::Run() [/home/jimzers/Documents/UnrealEngine/Engine/Source/Runtime/Core/Private/HAL/PThreadRunnableThread.cpp:25]
+[2020.07.18-18.42.06:849][398]LogOutputDevice: Error: [Callstack] 0x00007f487cc6af30 libUE4Editor-Core.so!FRunnableThreadPThread::_ThreadProc(void*) [/home/jimzers/Documents/UnrealEngine/Engine/Source/Runtime/Core/Private/HAL/PThreadRunnableThread.h:182]
+[2020.07.18-18.42.06:849][398]LogOutputDevice: Error: [Callstack] 0x00007f487d5ed6db libpthread.so.0!UnknownFunction(0x76da)
+[2020.07.18-18.42.06:849][398]LogOutputDevice: Error: [Callstack] 0x00007f4873864a3f libc.so.6!clone(+0x3e)
+[2020.07.18-18.42.06:849][398]LogOutputDevice: Error: 
+[2020.07.18-18.42.06:849][398]LogStats:                SubmitErrorReport -  0.000 s
+[2020.07.18-18.42.06:856][398]LogStats:                    SendNewReport -  0.009 s
+[2020.07.18-18.42.06:856][398]LogStats:             FDebug::EnsureFailed -  0.026 s
+[2020.07.18-18.42.09:815][577]LogCore: Done sending crash report for ensure().
+[2020.07.18-18.43.42:697][143]LogTemp: lookahead = 0.750000, adaptive_lookahead = 1.000000
+[2020.07.18-18.43.59:856][171]LogCore: === Critical error: ===
+Unhandled Exception: SIGSEGV: invalid attempt to read memory at address 0x000000000000004d
+
+[2020.07.18-18.43.59:856][171]LogCore: 0x00007f487d5effa0 libpthread.so.0!pthread_mutex_lock()
+0x00007f47e0965555 libUE4Editor-AirSim.so!clmdep_asio::detail::posix_mutex::lock() [/home/jimzers/Documents/airsim/external/rpclib/rpclib-2.2.1/dependencies/include/asio/detail/posix_mutex.hpp:51]
+0x00007f47e0985d66 libUE4Editor-AirSim.so!clmdep_asio::detail::strand_service::do_post(clmdep_asio::detail::strand_service::strand_impl*&, clmdep_asio::detail::task_io_service_operation*, bool) [/home/jimzers/Documents/airsim/external/rpclib/rpclib-2.2.1/dependencies/include/asio/detail/impl/strand_service.ipp:129]
+0x00007f47e099642b libUE4Editor-AirSim.so!void clmdep_asio::detail::strand_service::post<rpc::detail::server_session::do_read()::$_1::operator()(std::__1::error_code, unsigned long) const::'lambda'()::operator()() const::'lambda'()>(clmdep_asio::detail::strand_service::strand_impl*&, rpc::detail::server_session::do_read()::$_1::operator()(std::__1::error_code, unsigned long) const::'lambda'()::operator()() const::'lambda'()&) [/home/jimzers/Documents/airsim/external/rpclib/rpclib-2.2.1/dependencies/include/asio/detail/impl/strand_service.hpp:109]
+0x00007f47e09961e7 libUE4Editor-AirSim.so!clmdep_asio::async_result<clmdep_asio::handler_type<rpc::detail::server_session::do_read()::$_1::operator()(std::__1::error_code, unsigned long) const::'lambda'()::operator()() const::'lambda'(), void ()>::type>::type clmdep_asio::io_service::strand::post<rpc::detail::server_session::do_read()::$_1::operator()(std::__1::error_code, unsigned long) const::'lambda'()::operator()() const::'lambda'()>(rpc::detail::server_session::do_read()::$_1::operator()(std::__1::error_code, unsigned long) const::'lambda'()::operator()() const::'lambda'()&&) [/home/jimzers/Documents/airsim/external/rpclib/rpclib-2.2.1/dependencies/include/asio/strand.hpp:190]
+0x00007f47e099604a libUE4Editor-AirSim.so!rpc::detail::server_session::do_read()::$_1::operator()(std::__1::error_code, unsigned long) const::'lambda'()::operator()() const [/home/jimzers/Documents/airsim/external/rpclib/rpclib-2.2.1/lib/rpc/detail/server_session.cc:98]
+0x00007f47e0995db5 libUE4Editor-AirSim.so!void clmdep_asio::clmdep_asio_handler_invoke<rpc::detail::server_session::do_read()::$_1::operator()(std::__1::error_code, unsigned long) const::'lambda'()>(rpc::detail::server_session::do_read()::$_1::operator()(std::__1::error_code, unsigned long) const::'lambda'()&, ...) [/home/jimzers/Documents/airsim/external/rpclib/rpclib-2.2.1/dependencies/include/asio/handler_invoke_hook.hpp:68]
+0x00007f47e0995d02 libUE4Editor-AirSim.so!void clmdep_asio_handler_invoke_helpers::invoke<rpc::detail::server_session::do_read()::$_1::operator()(std::__1::error_code, unsigned long) const::'lambda'(), rpc::detail::server_session::do_read()::$_1::operator()(std::__1::error_code, unsigned long) const::'lambda'()>(rpc::detail::server_session::do_read()::$_1::operator()(std::__1::error_code, unsigned long) const::'lambda'()&, rpc::detail::server_session::do_read()::$_1::operator()(std::__1::error_code, unsigned long) const::'lambda'()&) [/home/jimzers/Documents/airsim/external/rpclib/rpclib-2.2.1/dependencies/include/asio/detail/handler_invoke_helpers.hpp:37]
+0x00007f47e0995bed libUE4Editor-AirSim.so!clmdep_asio::detail::completion_handler<rpc::detail::server_session::do_read()::$_1::operator()(std::__1::error_code, unsigned long) const::'lambda'()>::do_complete(clmdep_asio::detail::task_io_service*, clmdep_asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long) [/home/jimzers/Documents/airsim/external/rpclib/rpclib-2.2.1/dependencies/include/asio/detail/completion_handler.hpp:67]
+0x00007f47e0968607 libUE4Editor-AirSim.so!clmdep_asio::detail::task_io_service_operation::complete(clmdep_asio::detail::task_io_service&, std::__1::error_code const&, unsigned long) [/home/jimzers/Documents/airsim/external/rpclib/rpclib-2.2.1/dependencies/include/asio/detail/task_io_service_operation.hpp:37]
+0x00007f47e0970e84 libUE4Editor-AirSim.so!clmdep_asio::detail::task_io_service::do_run_one(clmdep_asio::detail::scoped_lock<clmdep_asio::detail::posix_mutex>&, clmdep_asio::detail::task_io_service_thread_info&, std::__1::error_code const&) [/home/jimzers/Documents/airsim/external/rpclib/rpclib-2.2.1/dependencies/include/asio/detail/impl/task_io_service.ipp:371]
+0x00007f47e0970a79 libUE4Editor-AirSim.so!clmdep_asio::detail::task_io_service::run(std::__1::error_code&) [/home/jimzers/Documents/airsim/external/rpclib/rpclib-2.2.1/dependencies/include/asio/detail/impl/task_io_service.ipp:148]
+0x00007f47e0963501 libUE4Editor-AirSim.so!clmdep_asio::io_service::run() [/home/jimzers/Documents/airsim/external/rpclib/rpclib-2.2.1/dependencies/include/asio/impl/io_service.ipp:58]
+0x00007f47e0962c7a libUE4Editor-AirSim.so!rpc::server::async_run(unsigned long)::$_0::operator()() const [/home/jimzers/Documents/airsim/external/rpclib/rpclib-2.2.1/lib/rpc/server.cc:122]
+0x00007f47e0962bfd libUE4Editor-AirSim.so!decltype(std::__1::forward<rpc::server::async_run(unsigned long)::$_0&>(fp)(std::__1::forward<>(fp0))) std::__1::__invoke<rpc::server::async_run(unsigned long)::$_0&>(rpc::server::async_run(unsigned long)::$_0&&&) [/usr/lib/llvm-8/bin/../include/c++/v1/type_traits:4353]
+0x00007f47e0962bad libUE4Editor-AirSim.so!void std::__1::__invoke_void_return_wrapper<void>::__call<rpc::server::async_run(unsigned long)::$_0&>(rpc::server::async_run(unsigned long)::$_0&&&) [/usr/lib/llvm-8/bin/../include/c++/v1/__functional_base:349]
+0x00007f47e0962b7d libUE4Editor-AirSim.so!std::__1::__function::__alloc_func<rpc::server::async_run(unsigned long)::$_0, std::__1::allocator<rpc::server::async_run(unsigned long)::$_0>, void ()>::operator()() [/usr/lib/llvm-8/bin/../include/c++/v1/functional:1527]
+0x00007f47e0961cc9 libUE4Editor-AirSim.so!std::__1::__function::__func<rpc::server::async_run(unsigned long)::$_0, std::__1::allocator<rpc::server::async_run(unsigned long)::$_0>, void ()>::operator()() [/usr/lib/llvm-8/bin/../include/c++/v1/functional:1651]
+0x00007f47e0973245 libUE4Editor-AirSim.so!std::__1::__function::__value_func<void ()>::operator()() const [/usr/lib/llvm-8/bin/../include/c++/v1/functional:1799]
+0x00007f47e0973205 libUE4Editor-AirSim.so!std::__1::function<void ()>::operator()() const [/usr/lib/llvm-8/bin/../include/c++/v1/functional:2347]
+0x00007f47e09731ad libUE4Editor-AirSim.so!decltype(std::__1::forward<std::__1::function<void ()> >(fp)(std::__1::forward<>(fp0))) std::__1::__invoke<std::__1::function<void ()> >(std::__1::function<void ()>&&) [/usr/lib/llvm-8/bin/../include/c++/v1/type_traits:4353]
+0x00007f47e0973155 libUE4Editor-AirSim.so!void std::__1::__thread_execute<std::__1::unique_ptr<std::__1::__thread_struct, std::__1::default_delete<std::__1::__thread_struct> >, std::__1::function<void ()> >(std::__1::tuple<std::__1::unique_ptr<std::__1::__thread_struct, std::__1::default_delete<std::__1::__thread_struct> >, std::__1::function<void ()> >&, std::__1::__tuple_indices<>) [/usr/lib/llvm-8/bin/../include/c++/v1/thread:342]
+0x00007f47e0972ce6 libUE4Editor-AirSim.so!void* std::__1::__thread_proxy<std::__1::tuple<std::__1::unique_ptr<std::__1::__thread_struct, std::__1::default_delete<std::__1::__thread_struct> >, std::__1::function<void ()> > >(void*) [/usr/lib/llvm-8/bin/../include/c++/v1/thread:352]
+0x00007f487d5ed6db libpthread.so.0!UnknownFunction(0x76da)
+0x00007f4873864a3f libc.so.6!clone(+0x3e)
+
+[2020.07.18-18.43.59:865][171]LogExit: Executing StaticShutdownAfterError
